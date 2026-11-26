@@ -38,14 +38,14 @@ $gitTools = Join-Path $gitRoot 'usr/bin'
 $env:PATH = "$gitTools;$env:PATH"
 $env:LANG = 'C.UTF-8'
 $env:LC_ALL = 'C.UTF-8'
-$env:TAR_OPTIONS = '--force-local'
+$env:TAR_OPTIONS = '--force-local --no-unquote'
 $workTar = '../chain-replay/lean/tar.exe'
 if (-not (Test-Path -LiteralPath $workTar)) {
     Copy-Item -LiteralPath (Join-Path $gitTools 'tar.exe') -Destination $workTar
 }
 ```
 
-This copy belongs to the local build directory. It is outside the published source and release assets.
+The first option accepts drive-letter paths; the second preserves backslashes in Lake's Windows destination path. This copy belongs to the local build directory. It is outside the published source and release assets.
 
 ## Checks and scope
 
