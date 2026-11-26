@@ -1,0 +1,354 @@
+=== gaussian-infimum ===
+[0, 1, 2, 3]    E = 0.999633292157728
+[0, 1.5, 2, 2.5]    E = 0.924751872822186
+[0, 2, 2, 2]    E = 0.849687099565508
+675 deterministic random cells passed both energy and stability checks.
+N= 4  h=0.0400  excess/h^2=0.37039086  limit=0.37088222
+N= 4  h=0.0200  excess/h^2=0.37075933  limit=0.37088222
+N= 4  h=0.0100  excess/h^2=0.37085150  limit=0.37088222
+N= 4  h=0.0050  excess/h^2=0.37087454  limit=0.37088222
+N= 4  h=0.0025  excess/h^2=0.37088030  limit=0.37088222
+N= 6  h=0.0400  excess/h^2=0.73833475  limit=0.74176445
+N= 6  h=0.0200  excess/h^2=0.74090549  limit=0.74176445
+N= 6  h=0.0100  excess/h^2=0.74154961  limit=0.74176445
+N= 6  h=0.0050  excess/h^2=0.74171073  limit=0.74176445
+N= 6  h=0.0025  excess/h^2=0.74175102  limit=0.74176445
+N= 8  h=0.0400  excess/h^2=1.10202176  limit=1.11264667
+N= 8  h=0.0200  excess/h^2=1.10998019  limit=1.11264667
+N= 8  h=0.0100  excess/h^2=1.11197941  limit=1.11264667
+N= 8  h=0.0050  excess/h^2=1.11247982  limit=1.11264667
+N= 8  h=0.0025  excess/h^2=1.11260496  limit=1.11264667
+N= 4  balanced excess/h^2=0.37088192  sharp limit=0.37088222
+N= 6  balanced excess/h^2=0.49450892  sharp limit=0.49450963
+N= 8  balanced excess/h^2=0.74176200  sharp limit=0.74176445
+N=10  balanced excess/h^2=0.89011313  sharp limit=0.89011734
+N=12  balanced excess/h^2=1.11263843  sharp limit=1.11264667
+Grid N=4 mesh= 16 grid min=0.871692049829 balanced trial=0.871692049829
+Grid N=4 mesh= 32 grid min=0.855407512593 balanced trial=0.855407512593
+Grid N=4 mesh= 64 grid min=0.851131175865 balanced trial=0.851131175865
+Grid N=4 mesh=128 grid min=0.850048996298 balanced trial=0.850048996298
+Grid N=6 mesh= 16 grid min=0.927980536870 balanced trial=0.927980536870
+Grid N=6 mesh= 24 grid min=0.912984112405 balanced trial=0.912984112405
+Grid N=6 mesh= 32 grid min=0.907345330218 balanced trial=0.907345330218
+Grid N=8 mesh= 16 grid min=0.962413910252 balanced trial=0.962413910252
+Narrow Gaussian comparison passed.
+
+=== exact-clusters ===
+Widths q = (0.05, 0.2, 0.3333333333333333)
+grid N=6 mesh=16 floor=1 words=3003 orbits=280
+  q=0.050000 E(packed)=0.953212462480 best other - packed=+1.78054015e-03 other=(1, 1, 5, 1, 1, 7)
+  q=0.200000 E(packed)=0.862824712357 best other - packed=+5.18256458e-03 other=(1, 1, 5, 1, 1, 7)
+  q=0.333333 E(packed)=0.811107494594 best other - packed=+6.94529599e-03 other=(1, 1, 5, 1, 1, 7)
+grid N=6 mesh=24 floor=1 words=33649 orbits=2920
+  q=0.050000 E(packed)=0.943470015918 best other - packed=+9.62814123e-04 other=(1, 1, 9, 1, 1, 11)
+  q=0.200000 E(packed)=0.834261009669 best other - packed=+2.76890588e-03 other=(1, 1, 9, 1, 1, 11)
+  q=0.333333 E(packed)=0.771770693843 best other - packed=+3.53980928e-03 other=(1, 1, 9, 1, 1, 11)
+grid N=6 mesh=32 floor=1 words=169911 orbits=14448
+  q=0.050000 E(packed)=0.939806773811 best other - packed=+5.78075388e-04 other=(1, 1, 13, 1, 1, 15)
+  q=0.200000 E(packed)=0.823520706959 best other - packed=+1.65374872e-03 other=(1, 1, 13, 1, 1, 15)
+  q=0.333333 E(packed)=0.756970747636 best other - packed=+2.06991638e-03 other=(1, 1, 13, 1, 1, 15)
+grid N=6 mesh=30 floor=2 words=33649 orbits=2920
+  q=0.050000 E(packed)=0.955465989738 best other - packed=+4.86547237e-04 other=(2, 2, 10, 2, 2, 12)
+  q=0.200000 E(packed)=0.869431730565 best other - packed=+1.41906864e-03 other=(2, 2, 10, 2, 2, 12)
+  q=0.333333 E(packed)=0.820201779025 best other - packed=+1.91685473e-03 other=(2, 2, 10, 2, 2, 12)
+grid N=6 mesh=30 floor=3 words=6188 orbits=561
+  q=0.050000 E(packed)=0.975133765593 best other - packed=+2.71642120e-04 other=(3, 3, 8, 3, 3, 10)
+  q=0.200000 E(packed)=0.927094003659 best other - packed=+7.87063600e-04 other=(3, 3, 8, 3, 3, 10)
+  q=0.333333 E(packed)=0.899505348047 best other - packed=+1.04548110e-03 other=(3, 3, 8, 3, 3, 10)
+grid N=6 mesh=30 floor=4 words=462 orbits=50
+  q=0.050000 E(packed)=0.992551141785 best other - packed=+8.08734961e-05 other=(4, 4, 6, 4, 4, 8)
+  q=0.200000 E(packed)=0.978157521994 best other - packed=+1.42450721e-04 other=(4, 4, 6, 4, 4, 8)
+  q=0.333333 E(packed)=0.969652959754 best other - packed=-1.86500020e-03 other=(4, 4, 4, 4, 4, 10)
+grid N=6 mesh=20 floor=3 words=21 orbits=4
+  q=0.050000 E(packed)=0.997993272405 best other - packed=+4.70737284e-05 other=(3, 3, 3, 3, 3, 5)
+  q=0.200000 E(packed)=0.994112408203 best other - packed=-2.36906961e-04 other=(3, 3, 3, 3, 3, 5)
+  q=0.333333 E(packed)=0.991561071150 best other - packed=-2.16580145e-03 other=(3, 3, 3, 3, 3, 5)
+grid N=8 mesh=20 floor=1 words=50388 orbits=3260
+  q=0.050000 E(packed)=0.968042722305 best other - packed=+7.71680422e-04 other=(1, 1, 1, 1, 6, 1, 1, 8)
+  q=0.200000 E(packed)=0.906197539501 best other - packed=+2.26246082e-03 other=(1, 1, 1, 1, 6, 1, 1, 8)
+  q=0.333333 E(packed)=0.870284645303 best other - packed=+3.11455745e-03 other=(1, 1, 1, 1, 6, 1, 1, 8)
+grid N=8 mesh=24 floor=2 words=6435 orbits=440
+  q=0.050000 E(packed)=0.987792102921 best other - packed=+1.63168222e-04 other=(2, 2, 2, 2, 5, 2, 2, 7)
+  q=0.200000 E(packed)=0.963925765354 best other - packed=+4.78442672e-04 other=(2, 2, 2, 2, 5, 2, 2, 7)
+  q=0.333333 E(packed)=0.948865287828 best other - packed=+6.63148228e-04 other=(2, 2, 2, 2, 5, 2, 2, 7)
+303706 ordered grid words before symmetry reduction
+off-grid: closest geometrically distinct sampled competitor, in U units
+  N= 4 Nh=0.0061 candidates= 343 margins=1.551e-08 1.502e-08 1.324e-08
+  N= 4 Nh=0.0713 candidates= 343 margins=2.092e-06 2.029e-06 1.798e-06
+  N= 4 Nh=0.3137 candidates= 343 margins=3.127e-05 3.113e-05 3.059e-05
+  N= 6 Nh=0.0061 candidates= 483 margins=6.892e-09 6.675e-09 5.884e-09
+  N= 6 Nh=0.0713 candidates= 483 margins=9.312e-07 9.029e-07 7.994e-07
+  N= 6 Nh=0.3137 candidates= 483 margins=1.454e-05 1.435e-05 1.363e-05
+  N= 8 Nh=0.0061 candidates= 519 margins=3.877e-09 3.755e-09 3.310e-09
+  N= 8 Nh=0.0713 candidates= 519 margins=5.231e-07 5.072e-07 4.494e-07
+  N= 8 Nh=0.3137 candidates= 519 margins=7.926e-06 7.842e-06 7.529e-06
+  N=10 Nh=0.0061 candidates= 713 margins=2.481e-09 2.403e-09 2.118e-09
+  N=10 Nh=0.0713 candidates= 713 margins=3.349e-07 3.248e-07 2.877e-07
+  N=10 Nh=0.3137 candidates= 713 margins=5.145e-06 5.079e-06 4.838e-06
+  N=12 Nh=0.0061 candidates= 767 margins=1.723e-09 1.669e-09 1.471e-09
+  N=12 Nh=0.0713 candidates= 767 margins=2.325e-07 2.254e-07 1.997e-07
+  N=12 Nh=0.3137 candidates= 767 margins=3.532e-06 3.490e-06 3.339e-06
+8475 off-grid candidate cells, 25425 comparisons
+largest independent energy discrepancy among off-grid finalists: 2.220e-16
+certified s=8, h=3/20, E(packed)=0.992393637141, E(other)=0.991096744100, packed - other > 0.00129689
+certified s=22, h=1/1000, E(packed)=0.669422909777, E(other)=0.667106810407, packed - other > 0.00231609
+tiny h=1/1000000, s=9, center shifted by h/100: E(other)-E(packed) = 2.213384096e-16
+tiny h=1/1000000, s=9, one internal gap released by h/100: E(other)-E(packed) = 1.040159259e-13
+tiny h=1/1000000, s=9, unbalanced 1+5: E(other)-E(packed) = 1.040159259e-11
+tiny s=9 q=0.333997185986, quartic quotient=-484.412441050, prediction=-484.412441054
+
+=== supplementary ===
+Running research/exact-clusters/certificate-referee.md
+s=8 E(Y) [0.99239363714082433655, 0.99239363714082433656]
+s=8 E(X) [0.99109674409986065590, 0.99109674409986065591]
+s=8 E(Y)-E(X) [0.00129689304096368065, 0.00129689304096368066]
+s=22 E(Y) [0.66942290977654283932, 0.66942290977654283933]
+s=22 E(X) [0.66710681040735662859, 0.66710681040735662860]
+s=22 E(Y)-E(X) [0.00231609936918621072, 0.00231609936918621073]
+shift [0.00000000000000022133840961528, 0.00000000000000022133840961529]
+release [0.00000000000010401592591955413, 0.00000000000010401592591955414]
+1+5 [0.00000000001040159259092364916, 0.00000000001040159259092364917]
+A4 [-484.412441053589, -484.412441053588]
+Q4 [-484.412441050486, -484.412441050485]
+Q4-A4 [0.0000000031028255, 0.0000000031028256]
+Running research/exact-clusters/六粒子去对径初检.md
+Running research/six-site/s22-search.md
+000001 999934023954049 999934023954049
+000011 669438766382902 669438766382902
+000101 999934023954049 999934023965057
+000111 669438766382902 669438796449213
+001001 669422909776542 669422909776542
+001011 669422909776542 669422924814430
+001111 665035844515524 665035844515524
+010101 999934023954049 999934023976067
+010111 669422909776542 669422939852318
+011011 669422909776542 669422939852318
+011111 665035844515524 665035869586280
+111111 665035844515524 665035894680801
+descents 146 distinct endpoints 23
+X 6671068104073566285 6671068104073566286
+Z 6650358445233044362 6650358445233044363
+fine 6650358445155248351 6650358445155248352
+X-Z 20709658840521923 20709658840521924
+Z-fine 77796011 77796012
+All three supplementary witnesses passed.
+
+=== rounding-low ===
+mesh=48, ordered=2869685, orbits=240633, orbits by #free={1: 1, 2: 72, 3: 1825, 4: 20562, 5: 89309, 6: 128864}
+continuous-domain certificate [2/25,1/10], M=48, bands=20, exclusion > 3695922e-9, release > 71463623e-9
+
+=== rounding-high ===
+mesh=40, ordered=1221759, orbits=102718, orbits by #free={1: 1, 2: 60, 3: 1254, 4: 11628, 5: 41211, 6: 48564}
+continuous-domain certificate [1/10,33/250], M=40, bands=32, exclusion > 791864e-9, release > 31221087e-9
+
+=== mesh-and-seeds ===
+mesh=32, ordered=435897, orbits=36822, orbits by #free={1: 1, 2: 48, 3: 790, 4: 5750, 5: 15785, 6: 14448}
+mesh h=0.1000000 higher=36821 lower=0 unresolved=0 least interval=[+1.3830983711e-04,+1.3830983711e-04] row=(0, 0, 15, 0, 0, 17) 3+free lower=+6.6479682e-03
+float h=0.1000000 starts=265 min E-E(3+3)=-1.3507020915e-16 slack=(0.0, 0.0, 0.5, 0.0, 0.0, 0.5)
+mesh h=0.1150000 higher=36821 lower=0 unresolved=0 least interval=[+4.4362206089e-05,+4.4362206089e-05] row=(0, 0, 15, 0, 0, 17) 3+free lower=+4.6317455e-03
+float h=0.1150000 starts=265 min E-E(3+3)=-1.0805616732e-16 slack=(0.0, 0.0, 0.5, 0.0, 0.0, 0.5)
+mesh h=0.1250000 higher=36821 lower=0 unresolved=0 least interval=[+1.1072181470e-05,+1.1072181470e-05] row=(0, 0, 15, 0, 0, 17) 3+free lower=+3.2022211e-03
+float h=0.1250000 starts=265 min E-E(3+3)=-7.4288615034e-17 slack=(0.0, 0.0, 0.5, 0.0, 0.0, 0.5)
+mesh h=0.1300000 higher=36821 lower=0 unresolved=0 least interval=[+1.6042185266e-06,+1.6042185266e-06] row=(0, 0, 15, 0, 0, 17) 3+free lower=+2.1340413e-03
+float h=0.1300000 starts=265 min E-E(3+3)=-6.0781594119e-17 slack=(0.0, 0.0, 0.5, 0.0, 0.0, 0.5)
+mesh h=0.1310000 higher=36821 lower=0 unresolved=0 least interval=[+1.9929110077e-07,+1.9929110077e-07] row=(0, 0, 15, 0, 0, 17) 3+free lower=+1.7956251e-03
+float h=0.1310000 starts=265 min E-E(3+3)=-5.4028083661e-17 slack=(0.0, 0.0, 0.5, 0.0, 0.0, 0.5)
+mesh h=0.1311400 higher=36821 lower=0 unresolved=0 least interval=[+1.4655125925e-08,+1.4655125925e-08] row=(0, 0, 15, 0, 0, 17) 3+free lower=+1.7494009e-03
+float h=0.1311400 starts=265 min E-E(3+3)=-1.3507020915e-17 slack=(0.0, 0.5, 0.0, 0.0, 0.5, 0.0)
+mesh h=0.1311460 higher=36821 lower=0 unresolved=0 least interval=[+6.8073238422e-09,+6.8073238422e-09] row=(0, 0, 15, 0, 0, 17) 3+free lower=+1.7474320e-03
+float h=0.1311460 starts=265 min E-E(3+3)=-8.7795635949e-17 slack=(0.0, 0.0, 0.5, 0.0, 0.0, 0.5)
+mesh h=0.1311468 higher=36821 lower=0 unresolved=0 least interval=[+5.7613541365e-09,+5.7613541365e-09] row=(0, 0, 15, 0, 0, 17) 3+free lower=+1.7471695e-03
+float h=0.1311468 starts=265 min E-E(3+3)=-2.7014041831e-17 slack=(0.0, 0.0, 0.4999246, 0.0, 0.0, 0.5000754)
+mesh h=0.1311500 higher=36821 lower=0 unresolved=0 least interval=[+1.5784255523e-09,+1.5784255523e-09] row=(0, 0, 15, 0, 0, 17) 3+free lower=+1.7461199e-03
+float h=0.1311500 starts=265 min E-E(3+3)=-7.5746105659e-10 slack=(0.0, 0.0, 0.4811772, 0.0, 0.0, 0.5188228)
+mesh h=0.1320000 higher=36807 lower=14 unresolved=0 least interval=[-5.1857114007e-05,-5.1857114007e-05] row=(0, 0, 6, 0, 0, 26) 3+free lower=+1.4772636e-03
+float h=0.1320000 starts=265 min E-E(3+3)=-5.1862794191e-05 slack=(0.0, 0.0, 0.1891438, 0.0, 0.0, 0.8108562)
+rational certificate h=2623/20000, d=1/1000, E(centered)-E(shifted) in [91235253, 91235254] * 10^-18
+
+=== search-9 ===
+h=    1/1000000 runs=108 outside=16 closed_outside=1 min_delta=[99196721859,99196721860]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 104015925909 104015925910
+  closest minus centered in units of 1e-22: 99196721859 99196721860
+  continued s=22 example minus trial in units of 1e-22: 2239372825627590622775 2239372825627590622776
+h=       1/1000 runs=108 outside=16 closed_outside=1 min_delta=[98597538779114,98597538779115]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 104000738277715272 104000738277715273
+  closest minus centered in units of 1e-22: 98597538779114 98597538779115
+  continued s=22 example minus trial in units of 1e-22: 2241596185224151552031 2241596185224151552032
+h=        1/100 runs=108 outside=16 closed_outside=1 min_delta=[928116200200434,928116200200435]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 10250762900958422205 10250762900958422206
+  closest minus centered in units of 1e-22: 928116200200434 928116200200435
+  continued s=22 example minus trial in units of 1e-22: 2240202645545277731962 2240202645545277731963
+h=        3/100 runs=108 outside=16 closed_outside=1 min_delta=[2338850958059201,2338850958059202]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 82055075754057708816 82055075754057708817
+  closest minus centered in units of 1e-22: 2338850958059201 2338850958059202
+  continued s=22 example minus trial in units of 1e-22: 2101442518674970233853 2101442518674970233854
+h=         3/50 runs=108 outside=16 closed_outside=1 min_delta=[3192099943257298,3192099943257299]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 219934565539295178443 219934565539295178444
+  closest minus centered in units of 1e-22: 3192099943257298 3192099943257299
+  continued s=22 example minus trial in units of 1e-22: 1580244151137201675163 1580244151137201675164
+h=        9/100 runs=108 outside=16 closed_outside=1 min_delta=[2671899540133598,2671899540133599]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 248064809213193959179 248064809213193959180
+  closest minus centered in units of 1e-22: 2671899540133598 2671899540133599
+h=         1/10 runs=108 outside=16 closed_outside=1 min_delta=[2286388836313282,2286388836313283]e-22 surplus=(0, 0, 524287, 0, 1, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 225639886103507543141 225639886103507543142
+  closest minus centered in units of 1e-22: 2286388836313282 2286388836313283
+h=         3/25 runs=110 outside=13 closed_outside=0 min_delta=[1380231569895360,1380231569895361]e-22 surplus=(0, 0, 524285, 0, 1, 524290) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 1380231569895360 1380231569895361
+h=          1/8 runs=108 outside=13 closed_outside=0 min_delta=[1151290814647302,1151290814647303]e-22 surplus=(0, 0, 524278, 0, 1, 524297) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 1151290814647302 1151290814647303
+h=635389/5000000 runs=110 outside=15 closed_outside=0 min_delta=[1051573303969047,1051573303969048]e-22 surplus=(0, 0, 511946, 0, 1, 536629) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 1051573303969047 1051573303969048
+h= 63539/500000 runs=108 outside=15 closed_outside=0 min_delta=[1050951333604730,1050951333604731]e-22 surplus=(0, 0, 511395, 0, 1, 537180) ahead_of_center=0
+  packed reference=(553515445351, 0, 0, 545996182425, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 1050935450110151 1050935450110152
+h=       16/125 runs=112 outside=15 closed_outside=0 min_delta=[718951318638981,718951318638982]e-22 surplus=(0, 0, 214827, 0, 1, 833748) ahead_of_center=8
+  packed reference=(874230455480, 0, 0, 225281172296, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -822205820553877954 -822205820553877953
+h=1296619/10000000 runs=110 outside=15 closed_outside=0 min_delta=[436426223056573,436426223056574]e-22 surplus=(0, 0, 6, 0, 1, 1048569) ahead_of_center=15
+  packed reference=(1099497105623, 0, 0, 14522153, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -5951415246058962427 -5951415246058962426
+h=648311/5000000 runs=108 outside=15 closed_outside=0 min_delta=[436413383857719,436413383857720]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -5952711451388853025 -5952711451388853024
+h=       27/200 runs=110 outside=15 closed_outside=0 min_delta=[409089641824144,409089641824145]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -23019855113325535486 -23019855113325535485
+h=         3/20 runs=108 outside=15 closed_outside=0 min_delta=[191978998722836,191978998722837]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -21815985605061732121 -21815985605061732120
+h=         4/25 runs=108 outside=15 closed_outside=0 min_delta=[39589453167306,39589453167307]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -5098589419458577320 -5098589419458577319
+h=       83/500 runs=112 outside=16 closed_outside=0 min_delta=[447057348770,447057348771]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=16
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -59713109385057696 -59713109385057695
+h=   3333/20000 runs=112 outside=16 closed_outside=0 min_delta=[282745506,282745507]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=16
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -37872746779534 -37872746779533
+Total searches=2072, distinct off-edge endpoints checked across floors=290
+
+=== search-825 ===
+h= 1/1000000000 runs=108 outside=19 closed_outside=6 min_delta=[98257,98258]e-22 surplus=(0, 0, 0, 0, 524288, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 98257 98258
+  closed-face off-edge endpoint (0, 0, 0, 262144, 0, 786432), excess in units of 1e-22: 2487503446316598821687 2487503446316598821688
+  closed-face off-edge endpoint (0, 0, 0, 458752, 0, 589824), excess in units of 1e-22: 2487503446316598893907 2487503446316598893908
+  closed-face off-edge endpoint (0, 65536, 0, 196608, 0, 786432), excess in units of 1e-22: 2487503446316598806683 2487503446316598806684
+  closed-face off-edge endpoint (0, 131072, 0, 458752, 0, 458752), excess in units of 1e-22: 2487503446316598913766 2487503446316598913767
+  closed-face off-edge endpoint (0, 327680, 0, 327680, 0, 393216), excess in units of 1e-22: 2487503446316598945280 2487503446316598945281
+  closest minus centered in units of 1e-22: 98257 98258
+  continued s=22 example minus trial in units of 1e-22: 2212629558673265739505 2212629558673265739506
+h=1300211/10000000 runs=110 outside=16 closed_outside=0 min_delta=[875112843698764,875112843698765]e-22 surplus=(0, 0, 511331, 0, 1, 537244) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 875112843698764 875112843698765
+h=325053/2500000 runs=110 outside=15 closed_outside=0 min_delta=[874870344568600,874870344568601]e-22 surplus=(0, 0, 511034, 0, 1, 537541) ahead_of_center=0
+  packed reference=(551944462383, 0, 0, 547567165393, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 874869194694629 874869194694630
+h=     131/1000 runs=110 outside=15 closed_outside=0 min_delta=[606606581626660,606606581626661]e-22 surplus=(0, 0, 184966, 0, 1, 863609) ahead_of_center=8
+  packed reference=(905542704018, 0, 0, 193968923758, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -733487626440115824 -733487626440115823
+h=1322869/10000000 runs=112 outside=15 closed_outside=0 min_delta=[427613122603047,427613122603048]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099502693248, 0, 0, 8934528, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -3702375308448890501 -3702375308448890500
+h=132287/1000000 runs=110 outside=15 closed_outside=0 min_delta=[427608795548758,427608795548759]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -3702685069096195569 -3702685069096195568
+h=49999997/300000000 runs=112 outside=37 closed_outside=10 min_delta=[130,131]e-22 surplus=(0, 0, 1, 0, 1, 1048574) ahead_of_center=32
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 1024, 1047552), excess in units of 1e-22: 95478 95479
+  closed-face off-edge endpoint (0, 0, 0, 1024, 0, 1047552), excess in units of 1e-22: 114372 114373
+  closed-face off-edge endpoint (0, 0, 256, 0, 768, 1047552), excess in units of 1e-22: 81036 81037
+  closed-face off-edge endpoint (0, 0, 256, 0, 1047552, 768), excess in units of 1e-22: 100208 100209
+  closed-face off-edge endpoint (0, 0, 256, 768, 0, 1047552), excess in units of 1e-22: 95203 95204
+  closed-face off-edge endpoint (0, 0, 768, 256, 0, 1047552), excess in units of 1e-22: 56829 56830
+  closed-face off-edge endpoint (0, 0, 196608, 392960, 0, 459008), excess in units of 1e-22: 29273632 29273633
+  closed-face off-edge endpoint (0, 0, 196608, 458752, 0, 393216), excess in units of 1e-22: 29973050 29973051
+  closed-face off-edge endpoint (0, 256, 0, 768, 0, 1047552), excess in units of 1e-22: 114393 114394
+  closed-face off-edge endpoint (0, 262144, 262144, 0, 262144, 262144), excess in units of 1e-22: 31707937 31707938
+  closest minus centered in units of 1e-22: -9641484 -9641483
+Total searches=772, distinct off-edge endpoints checked across floors=132
+
+=== search-85 ===
+h= 1/1000000000 runs=108 outside=22 closed_outside=9 min_delta=[100288,100289]e-22 surplus=(0, 0, 0, 0, 524288, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 100288 100289
+  closed-face off-edge endpoint (0, 0, 0, 258048, 0, 790528), excess in units of 1e-22: 2538469967718947922838 2538469967718947922839
+  closed-face off-edge endpoint (0, 0, 0, 331776, 0, 716800), excess in units of 1e-22: 2538469967718947961792 2538469967718947961793
+  closed-face off-edge endpoint (0, 0, 0, 331792, 0, 716784), excess in units of 1e-22: 2538469967718947961799 2538469967718947961800
+  closed-face off-edge endpoint (0, 0, 0, 458752, 0, 589824), excess in units of 1e-22: 2538469967718947996907 2538469967718947996908
+  closed-face off-edge endpoint (0, 4096, 0, 327680, 0, 716800), excess in units of 1e-22: 2538469967718947960904 2538469967718947960905
+  closed-face off-edge endpoint (0, 65280, 0, 196864, 0, 786432), excess in units of 1e-22: 2538469967718947910052 2538469967718947910053
+  closed-face off-edge endpoint (0, 196608, 0, 262144, 0, 589824), excess in units of 1e-22: 2538469967718948002620 2538469967718948002621
+  closed-face off-edge endpoint (0, 262144, 0, 376832, 0, 409600), excess in units of 1e-22: 2538469967718948045909 2538469967718948045910
+  closest minus centered in units of 1e-22: 100288 100289
+  continued s=22 example minus trial in units of 1e-22: 2226742613126787808023 2226742613126787808024
+h=644847/5000000 runs=110 outside=16 closed_outside=0 min_delta=[936229710116472,936229710116473]e-22 surplus=(0, 0, 511648, 0, 1, 536927) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 936229710116472 936229710116473
+h=257939/2000000 runs=108 outside=15 closed_outside=0 min_delta=[935967148452536,935967148452537]e-22 surplus=(0, 0, 511359, 0, 1, 537216) ahead_of_center=0
+  packed reference=(550845072816, 0, 0, 548666554960, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 935967064615441 935967064615442
+h=       13/100 runs=112 outside=15 closed_outside=0 min_delta=[633494622829471,633494622829472]e-22 surplus=(0, 0, 184621, 0, 1, 863954) ahead_of_center=8
+  packed reference=(905905483609, 0, 0, 193606144167, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -876382134461051417 -876382134461051416
+h=1313559/10000000 runs=110 outside=15 closed_outside=0 min_delta=[434016415701878,434016415701879]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099507293072, 0, 0, 4334704, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -4409777396241122584 -4409777396241122583
+h= 32839/250000 runs=110 outside=15 closed_outside=0 min_delta=[434014886439231,434014886439232]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -4410126476358296772 -4410126476358296771
+h=49999997/300000000 runs=112 outside=31 closed_outside=6 min_delta=[96,97]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=22
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 1028, 1047548), excess in units of 1e-22: 98809 98810
+  closed-face off-edge endpoint (0, 0, 0, 0, 393216, 655360), excess in units of 1e-22: 23645090 23645091
+  closed-face off-edge endpoint (0, 0, 0, 1024, 0, 1047552), excess in units of 1e-22: 119816 119817
+  closed-face off-edge endpoint (0, 0, 0, 311296, 344064, 393216), excess in units of 1e-22: 35913643 35913644
+  closed-face off-edge endpoint (0, 0, 4096, 0, 393216, 651264), excess in units of 1e-22: 23783058 23783059
+  closed-face off-edge endpoint (0, 0, 196608, 0, 393216, 458752), excess in units of 1e-22: 28765701 28765702
+  closest minus centered in units of 1e-22: -10906991 -10906990
+Total searches=770, distinct off-edge endpoints checked across floors=129
+
+=== search-875 ===
+h= 1/1000000000 runs=108 outside=22 closed_outside=7 min_delta=[102205,102206]e-22 surplus=(0, 0, 0, 0, 524288, 524288) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 0, 524288, 524288), excess in units of 1e-22: 102205 102206
+  closed-face off-edge endpoint (0, 0, 0, 262144, 0, 786432), excess in units of 1e-22: 2586410453250064139294 2586410453250064139295
+  closed-face off-edge endpoint (0, 0, 0, 262160, 0, 786416), excess in units of 1e-22: 2586410453250064139303 2586410453250064139304
+  closed-face off-edge endpoint (0, 0, 0, 458752, 0, 589824), excess in units of 1e-22: 2586410453250064210015 2586410453250064210016
+  closed-face off-edge endpoint (0, 131072, 0, 323584, 0, 593920), excess in units of 1e-22: 2586410453250064212903 2586410453250064212904
+  closed-face off-edge endpoint (0, 131072, 0, 458752, 0, 458752), excess in units of 1e-22: 2586410453250064231987 2586410453250064231988
+  closed-face off-edge endpoint (0, 311296, 0, 327680, 0, 409600), excess in units of 1e-22: 2586410453250064266469 2586410453250064266470
+  closest minus centered in units of 1e-22: 102205 102206
+  continued s=22 example minus trial in units of 1e-22: 2235568538311800538960 2235568538311800538961
+h=319973/2500000 runs=110 outside=14 closed_outside=0 min_delta=[995026010505966,995026010505967]e-22 surplus=(0, 0, 511731, 0, 1, 536844) ahead_of_center=0
+  packed reference=(549755813888, 0, 0, 549755813888, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 995026010505966 995026010505967
+h=1279893/10000000 runs=110 outside=14 closed_outside=0 min_delta=[994737653304949,994737653304950]e-22 surplus=(0, 0, 511452, 0, 1, 537123) ahead_of_center=0
+  packed reference=(552111220281, 0, 0, 547400407495, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: 994735516359269 994735516359270
+h=     129/1000 runs=112 outside=15 closed_outside=0 min_delta=[670002460741110,670002460741111]e-22 surplus=(0, 0, 194819, 0, 1, 853756) ahead_of_center=8
+  packed reference=(895211383607, 0, 0, 204300244169, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -911188200077082604 -911188200077082603
+h=1304821/10000000 runs=108 outside=15 closed_outside=0 min_delta=[436918273092835,436918273092836]e-22 surplus=(0, 0, 1, 0, 1, 1048574) ahead_of_center=15
+  packed reference=(1099502320214, 0, 0, 9307562, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -5163208102670035599 -5163208102670035598
+h=652411/5000000 runs=110 outside=15 closed_outside=0 min_delta=[436912483097536,436912483097537]e-22 surplus=(0, 0, 0, 0, 1, 1048575) ahead_of_center=15
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closest minus centered in units of 1e-22: -5163598026560884630 -5163598026560884629
+h=49999997/300000000 runs=112 outside=24 closed_outside=2 min_delta=[145,146]e-22 surplus=(0, 0, 1, 0, 1, 1048574) ahead_of_center=22
+  packed reference=(1099511627776, 0, 0, 0, 0, 0)/1099511627776
+  closed-face off-edge endpoint (0, 0, 0, 1024, 0, 1047552), excess in units of 1e-22: 125351 125352
+  closed-face off-edge endpoint (0, 0, 0, 524288, 0, 524288), excess in units of 1e-22: 32121308 32121309
+  closest minus centered in units of 1e-22: -12241271 -12241270
+Total searches=770, distinct off-edge endpoints checked across floors=119
+

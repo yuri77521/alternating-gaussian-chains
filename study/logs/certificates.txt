@@ -1,0 +1,243 @@
+Running verify_six_site_bifurcation.py
+All 0<h<1/6: kappa'/sin(2*pi*h) < -26
+All 0<h<1/6: 1.49 < slope/[sin(2*pi*h)*(2*cos(2*pi*h)-1)] < 1.57
+Root bracket: (0.13114680495074, 0.13114680495076); opposite signs
+Root bracket: -58.94248 < kappa' < -58.94246; 70.22242 < E_tttt < 70.22244
+Root bracket: .40191212 < each contact slope < .40191214
+Displacement coefficient in (2.24414,2.24416); energy gain coefficient in (74.2115,74.2119)
+.13114 <= h <= .13116: -59.1 < kappa' < -58.8; .400 < each contact slope < .403
+Same h, |t| <= .001: 69 < E_tttt(h,t) < 72
+Same h,t and four independent gap releases <= .001: every gap slope > .296
+For 0 < h-h_c <= 1.9e-7: exactly two interior face minima in |t| <= .001
+Running verify_six_site_contact.py
+B'(x) > 1/4 - 208/1000 on the whole interval
+B(0.13327908477025674) in [60, 61] x 10^-18
+B(0.13327908477025675) in [-66, -65] x 10^-18
+Running verify_six_site_global_reduction.py
+Strict two-gap support in bifurcation band: {'boxes': 129, 'value': 2, 'curvature': 72}
+[6000/300000,6600/300000]: 13326 boxes
+[6600/300000,7200/300000]: 11988 boxes
+[7200/300000,7800/300000]: 10868 boxes
+[7800/300000,8400/300000]: 9918 boxes
+[8400/300000,9000/300000]: 9156 boxes
+[9000/300000,9600/300000]: 8524 boxes
+[9600/300000,10200/300000]: 7972 boxes
+[10200/300000,10800/300000]: 7460 boxes
+[10800/300000,11400/300000]: 6982 boxes
+[11400/300000,12000/300000]: 6548 boxes
+[12000/300000,12600/300000]: 6114 boxes
+[12600/300000,13200/300000]: 5740 boxes
+[13200/300000,13800/300000]: 5408 boxes
+[13800/300000,14400/300000]: 5086 boxes
+[14400/300000,15000/300000]: 4792 boxes
+[15000/300000,15600/300000]: 4506 boxes
+[15600/300000,16200/300000]: 4270 boxes
+[16200/300000,16800/300000]: 4022 boxes
+[16800/300000,17400/300000]: 3836 boxes
+[17400/300000,18000/300000]: 3612 boxes
+[18000/300000,18600/300000]: 3456 boxes
+[18600/300000,19200/300000]: 3350 boxes
+[19200/300000,19800/300000]: 3218 boxes
+[19800/300000,20400/300000]: 3008 boxes
+[20400/300000,21000/300000]: 2812 boxes
+[21000/300000,21600/300000]: 2642 boxes
+[21600/300000,22200/300000]: 2288 boxes
+[22200/300000,22800/300000]: 2124 boxes
+[22800/300000,23400/300000]: 2030 boxes
+[23400/300000,24000/300000]: 1888 boxes
+[24000/300000,24600/300000]: 1792 boxes
+[24600/300000,25200/300000]: 1644 boxes
+[25200/300000,25800/300000]: 1550 boxes
+[25800/300000,26400/300000]: 1468 boxes
+[26400/300000,27000/300000]: 1388 boxes
+[27000/300000,27600/300000]: 1292 boxes
+[27600/300000,28200/300000]: 1230 boxes
+[28200/300000,28800/300000]: 1090 boxes
+[28800/300000,29400/300000]: 1006 boxes
+[29400/300000,30000/300000]: 844 boxes
+[30000/300000,30600/300000]: 752 boxes
+[30600/300000,31200/300000]: 702 boxes
+[31200/300000,31800/300000]: 654 boxes
+[31800/300000,32400/300000]: 628 boxes
+[32400/300000,33000/300000]: 570 boxes
+[33000/300000,33600/300000]: 538 boxes
+[33600/300000,34200/300000]: 506 boxes
+[34200/300000,34800/300000]: 394 boxes
+[34800/300000,35400/300000]: 348 boxes
+[35400/300000,36000/300000]: 322 boxes
+[36000/300000,40200/300000]: 410 boxes
+[40200/300000,42000/300000]: 118 boxes
+[42000/300000,45000/300000]: 58 boxes
+[45000/300000,50000/300000]: 18 boxes
+Closed opposite-gap edge on [1/50,1/6]: {'boxes': 186266, 'value': 38660, 'gradient': 15335, 'curvature': 39624}
+Running verify_six_site_width_band.py
+Unit-scaled kernel enclosures for orders 0,1,2: (42761, 539098, 6806367)
+[30000/300000,30600/300000]: 760 boxes
+[30600/300000,31200/300000]: 712 boxes
+[31200/300000,31800/300000]: 662 boxes
+[31800/300000,32400/300000]: 628 boxes
+[32400/300000,33000/300000]: 574 boxes
+[33000/300000,33600/300000]: 542 boxes
+[33600/300000,34200/300000]: 508 boxes
+[34200/300000,34800/300000]: 398 boxes
+[34800/300000,35400/300000]: 348 boxes
+[35400/300000,36000/300000]: 322 boxes
+[36000/300000,40200/300000]: 418 boxes
+[40200/300000,42000/300000]: 120 boxes
+[42000/300000,45000/300000]: 58 boxes
+[45000/300000,50000/300000]: 18 boxes
+Opposite-gap edge for 7.99 <= s <= 8.01, .1 <= h <= 1/6: {'boxes': 6068, 'value': 261, 'gradient': 377, 'curvature': 2522}
+Running verify_six_site_s9_mesh.py
+M=24, 10133 distinct orbits, 10120 outside the packed edge
+h=1/1000000, min(off mesh)-min(edge mesh) in [104015925909, 104015925910]e-22; best off-edge candidates on mesh=[(0, 0, 0, 0, 12, 12)]
+h=7/100, min(off mesh)-min(edge mesh) in [130254029180635894256, 130254029180635894258]e-22; best off-edge candidates on mesh=[(0, 0, 11, 0, 1, 12)]
+h=1016623/8000000, min(off mesh)-min(edge mesh) in [24943915367490361046, 24943915367490361047]e-22; best off-edge candidates on mesh=[(0, 0, 0, 0, 1, 23)]
+h=16/125, min(off mesh)-min(edge mesh) in [20963123270827573935, 20963123270827573936]e-22; best off-edge candidates on mesh=[(0, 0, 0, 0, 1, 23)]
+h=129662031/1000000000, min(off mesh)-min(edge mesh) in [18277774372798076956, 18277774372798076957]e-22; best off-edge candidates on mesh=[(0, 0, 0, 0, 1, 23)]
+h=3/20, min(off mesh)-min(edge mesh) in [8048211546870461069, 8048211546870461070]e-22; best off-edge candidates on mesh=[(0, 0, 0, 0, 1, 23)]
+h=49999997/300000000, min(off mesh)-min(edge mesh) in [4263188, 4263189]e-22; best off-edge candidates on mesh=[(0, 0, 0, 0, 1, 23)]
+h=16/125, E(center)-E(t=.07) in [82127929369, 82127929370]e-15
+h=16/125, E(five contacts)-E(t=.07) in [266471460115, 266471460116]e-15
+h=16/125, center - competitor in (822205820553877953, 822205820553877954)e-22
+h=16/125, competitor - shifted in (718951318638981, 718951318638982)e-22
+Running verify_six_site_s9_thresholds.py
+center at .12707787492004334: [7, 8] x 10^-18
+center at .12707787492004335: [-142, -141] x 10^-18
+outer contact at .12966203092650766: [32, 33] x 10^-18
+outer contact at .12966203092650767: [-119, -118] x 10^-18
+Running verify_six_site_s9_small.py
+s=9: small-floor block inequalities passed for 0 < h <= 7/100.
+Running verify_six_site_s9_faces.py
+[15000/300000,15600/300000]: 4266 boxes
+[15600/300000,16200/300000]: 4024 boxes
+[16200/300000,16800/300000]: 3814 boxes
+[16800/300000,17400/300000]: 3620 boxes
+[17400/300000,18000/300000]: 3470 boxes
+[18000/300000,18600/300000]: 3324 boxes
+[18600/300000,19200/300000]: 3092 boxes
+[19200/300000,19800/300000]: 2900 boxes
+[19800/300000,20400/300000]: 2576 boxes
+[20400/300000,21000/300000]: 2386 boxes
+[21000/300000,21600/300000]: 2182 boxes
+[21600/300000,22200/300000]: 2080 boxes
+[22200/300000,22800/300000]: 1962 boxes
+[22800/300000,23400/300000]: 1832 boxes
+[23400/300000,24000/300000]: 1706 boxes
+[24000/300000,24600/300000]: 1600 boxes
+[24600/300000,25200/300000]: 1488 boxes
+[25200/300000,25800/300000]: 1406 boxes
+[25800/300000,26400/300000]: 1300 boxes
+[26400/300000,27000/300000]: 1224 boxes
+[27000/300000,27600/300000]: 1160 boxes
+[27600/300000,28200/300000]: 1038 boxes
+[28200/300000,28800/300000]: 968 boxes
+[28800/300000,29400/300000]: 782 boxes
+[29400/300000,30000/300000]: 732 boxes
+[30000/300000,30600/300000]: 686 boxes
+[30600/300000,31200/300000]: 642 boxes
+[31200/300000,31800/300000]: 610 boxes
+[31800/300000,32400/300000]: 556 boxes
+[32400/300000,33000/300000]: 512 boxes
+[33000/300000,33600/300000]: 458 boxes
+[33600/300000,34200/300000]: 370 boxes
+[34200/300000,34800/300000]: 338 boxes
+[34800/300000,35400/300000]: 316 boxes
+[35400/300000,36000/300000]: 270 boxes
+[36000/300000,40200/300000]: 314 boxes
+[40200/300000,42000/300000]: 104 boxes
+[42000/300000,45000/300000]: 56 boxes
+[45000/300000,50000/300000]: 18 boxes
+Closed opposite-gap edge at s=9 on [1/20,1/6]: {'boxes': 60182, 'value': 7328, 'gradient': 4267, 'curvature': 18847}
+Running verify_six_site_width_strip.py
+s=[8,17/2], anchor=33/4, errors=(1156027, 14580271, 184224460), 49 floor bands: {'boxes': 40740, 'value': 3094, 'gradient': 2938, 'curvature': 14779}
+s=[17/2,9], anchor=35/4, errors=(1309984, 16545550, 209498225), 49 floor bands: {'boxes': 39056, 'value': 2844, 'gradient': 2885, 'curvature': 14240}
+Closed opposite-gap edge for 8 <= s <= 9 and .07 <= h < 1/6: {'boxes': 79796, 'value': 5938, 'gradient': 5823, 'curvature': 29019}
+Running verify_six_site_strip_thresholds.py
+s=8, h_c from (13114680495074862, 13114680495074863) / 10^17
+s=8, h_b from (13327908477025674, 13327908477025675) / 10^17
+s=33/4, h_c from (13002116216464920, 13002116216464921) / 10^17
+s=33/4, h_b from (13228696963489349, 13228696963489350) / 10^17
+s=17/2, h_c from (12896949017617399, 12896949017617400) / 10^17
+s=17/2, h_b from (13135593571511805, 13135593571511806) / 10^17
+s=35/4, h_c from (12798925229764372, 12798925229764373) / 10^17
+s=35/4, h_b from (13048218048706585, 13048218048706586) / 10^17
+s=9, h_c from (12707787492004334, 12707787492004335) / 10^17
+s=9, h_b from (12966203092650766, 12966203092650767) / 10^17
+On every intervening width slab: h_b(s)-h_c(s) > 0.00114
+Running verify_six_site_strip_separation.py
+32 slabs: (h_b-h_c)' in [209555, 734655]e-9
+s=8: h_b-h_c in (213227981950811, 213227981950813) / 10^17
+s=9: h_b-h_c in (258415600646431, 258415600646433) / 10^17
+Running verify_six_site_s22.py
+Witness E in [2001320431220963/3000000000000000, 2001320431223611/3000000000000000]
+Covered d in [3/1000, 1/2] and its reflection, h=1/1000, s=22
+Visited 335 boxes, certified 168 leaves, maximum depth 13
+E_packed-E_witness >= 171339172481/75000000000000 > 91374814489/40000000000000
+Running verify_six_site_s22_faces.py
+Tight block size 2, X score cutoff -2001320433: {'boxes': 1269, 'X': 36, 'second': 316, 'first': 283}
+Tight block size 3, X score cutoff -2001320433: {'boxes': 541, 'X': 24, 'second': 79, 'first': 158, 'local': 10}
+Running verify_six_site_s22_block_atlas.py
+6 1 0 1 0 0 0
+33 1 0 1 0 0 0
+42 1 0 1 0 0 0
+51 1 0 1 0 0 0
+222 1 0 1 0 0 0
+321 3 0 2 0 0 0
+411 11 0 6 0 0 0
+2121 7 0 4 0 0 0
+2211 25 0 13 0 0 0
+3111 1067 0 1 428 99 6
+21111 1761 0 1 350 530 0
+111111 2759 344 0 156 880 0
+Total 5638 344 32 934 1509 6
+All maximizers lie on (3, 1, 1, 1), within 2/32000 of the stated centers.
+Running verify_six_site_s22_local.py
+Local capture: adjacent gaps [.001,.02], four other gaps [.21,.29].
+Reflection root lies strictly between 249999032167246504146498 / 10^24 and 249999032167246504146499 / 10^24.
+Physical energy lies in (0.665035844513390868270, 0.665035844513390868271).
+Running assertions in early-global.md
+Running assertions in packed-face.md
+Running assertions in global-referee.md
+critical band -820307852006 -820803398584
+(40200, 42000) (1652, 841, 121716939)
+(42000, 45000) (748, 389, 1357543271)
+(45000, 50000) (150, 90, 3387437373)
+Running assertions in block-translation-note.md
+Running assertions in block-translation-referee.md
+Running assertions in width-referee.md
+Running assertions in width-stability.md
+Uniform width certificate passed {'boxes': 103672, 'value': 16047, 'gradient': 7929, 'curvature': 28256}
+Running assertions in width-band-referee.md
+0 41980
+1 528998
+2 6675319
+Running assertions in s9-referee.md
+Image derivative of order 2: ((37, 38), (-733, -732)) x 10^-18
+Image derivative of order 1: ((17, 18), (-64, -63)) x 10^-18
+Fourier intervals contained in all 24579 unpadded image intervals
+Running assertions in width-strip-probes.md
+Intermediate-width energy comparisons and fractional-width tails passed.
+Running assertions in width-strip-referee.md
+s=8: physical-space endpoint derivatives x 10^18 = [(230, 231), (-359, -358), (27, 28), (-30, -29)]
+s=33/4: physical-space endpoint derivatives x 10^18 = [(126, 127), (-509, -508), (37, 38), (-26, -25)]
+s=17/2: physical-space endpoint derivatives x 10^18 = [(616, 617), (-64, -63), (34, 35), (-35, -34)]
+s=35/4: physical-space endpoint derivatives x 10^18 = [(147, 148), (-578, -577), (72, 73), (-2, -1)]
+s=9: physical-space endpoint derivatives x 10^18 = [(37, 38), (-733, -732), (17, 18), (-64, -63)]
+s in [8,17/2]: independent width errors (1156027, 14580271, 184224459) in 1e-9 units
+anchor 33/4: 24 independent image intervals inside unpadded table
+s in [17/2,9]: independent width errors (1309984, 16545550, 209498224) in 1e-9 units
+anchor 35/4: 24 independent image intervals inside unpadded table
+s=17/2: physical implicit slopes x 10^12 = [(-4062107312, -4062107311), (-3607080764, -3607080763), (455026548, 455026549)]
+Running assertions in s22-competitor.md
+s=22, h=1/1000: the whole packed edge lies above X by > 0.002284370362225.
+Running assertions in s22-analytic-faces.md
+Two disjoint contacts: E > 0.66807 on all nine closed faces.
+Running assertions in s22-interior.md
+No-contact support: six alternating signs cannot occur in a degree-two trigonometric polynomial.
+Running assertions in s22-kernel.md
+Independent block kernel point checks passed: 630
+Running assertions in s22-referee.md
+Independent width-22 root, energy, normal derivatives and Hessian passed.
+675 independent signed block-interaction enclosures passed.
+180 additional independent atlas image checks passed.
+All six-site certificates passed.

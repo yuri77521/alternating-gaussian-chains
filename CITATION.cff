@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the v1.0.1 research manuscript. Research coordination: yuri77521. AI research: OpenAI Codex (GPT-6.2 Astra)."
+type: software
+title: "Exact clusters and global transitions in periodic alternating Gaussian chains with a minimum spacing"
+authors:
+  - name: "Independent Research Project"
+version: "1.0.1"
+repository-code: "https://github.com/yuri77521/alternating-gaussian-chains"
+url: "https://github.com/yuri77521/alternating-gaussian-chains/releases/tag/v1.0.1"
+preferred-citation:
+  type: unpublished
+  title: "Exact clusters and global transitions in periodic alternating Gaussian chains with a minimum spacing"
+  authors:
+    - name: "Independent Research Project"
+  year: 2026
+  version: "1.0.1"
+  notes: "Research coordination: yuri77521. AI research: OpenAI Codex (GPT-6.2 Astra). English and Traditional Chinese manuscripts."
+  url: "https://github.com/yuri77521/alternating-gaussian-chains/releases/tag/v1.0.1"

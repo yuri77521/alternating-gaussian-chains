@@ -1,0 +1,8 @@
+'AlternatingParticleChains.admissible_gaussian_counterexample' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'AlternatingParticleChains.admissible_cells_and_energy_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AlternatingMoments.firstMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AlternatingMoments.secondMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AlternatingMoments.tripleVariance_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AlternatingMoments.triple_gap_derivatives' depends on axioms: [propext, Classical.choice, Quot.sound]

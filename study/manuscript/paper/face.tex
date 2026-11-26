@@ -1,0 +1,53 @@
+\section{\bi{Motion of two packed triples}{緊雙三簇的相對位移}}
+\bi{For six sites put $b=1/2-3h$ and introduce the entire closed family}{對六粒子令 $b=1/2-3h$，考慮整個閉構型族}
+\begin{equation}\label{eq:y}
+ Y(h,t)=(0,h,2h,\tfrac12+t,\tfrac12+t+h,\tfrac12+t+2h),\qquad |t|\le b .
+\end{equation}
+\bi{The other two gaps are $1/2-2h\pm t$. Write $x=\cos\eta$, $y=1-\cos(2\pi t)$, $y_b=1-\cos(2\pi b)$, $A_n=2T_n(x)-1$; $T_n(\cos v)=\cos(nv)$ and $T_n'=nU_{n-1}$. Subtracting the centered energy in \eqref{eq:energy} gives}{另兩間隙為 $1/2-2h\pm t$。令 $x=\cos\eta$、$y=1-\cos(2\pi t)$、$y_b=1-\cos(2\pi b)$、$A_n=2T_n(x)-1$，此處 $T_n(\cos v)=\cos(nv)$、$T_n'=nU_{n-1}$。利用式 \eqref{eq:energy} 減去對徑能量得}
+\begin{align}
+ E_s(Y(h,t))-E_s(Y(h,0))&=(4cq/6)\Phi(y),\notag\\
+ \Phi(y)&=\sum_{n\ge1}(-1)^na_n A_n^2[T_n(1-y)-1],\qquad a_n=q^{n^2-1}.\label{eq:phi}
+\end{align}
+\begin{thm}\label{th:face}
+\bi{For every $0<q\le17/50$ the entire family \eqref{eq:y} has the minimizers in Table~\ref{tab:phases}. Both thresholds are simple, real analytic and strictly decreasing in $s$; $1/8<h_c<h_b<1/6$.}{對每個 $0<q\le17/50$，整個構型族 \eqref{eq:y} 的極小者見表~\ref{tab:phases}。兩條臨界曲線皆為簡單根，對 $s$ 實解析且嚴格遞減，並有 $1/8<h_c<h_b<1/6$。}
+\end{thm}
+\par
+\begin{table}[tbp]\centering
+\caption{\bi{Minimizing displacements on the packed face. Theorem~\ref{th:strip} establishes globality on the stated strip.}{緊雙簇面上的全部極小位移；定理~\ref{th:strip} 證明其在指定條帶的全域性。}}\label{tab:phases}
+\begin{tabular}{lll}\toprule
+\bi{Floor}{下限} & \bi{Displacement}{位移} & \bi{Contact pattern}{接觸形態}\\\midrule
+$0<h\le h_c$ & $0$ & \bi{two antipodal triples}{兩個對徑緊三簇}\\
+$h_c<h<h_b$ & $\pm t_*,\quad 0<t_*<b$ & \bi{two unequal slack gaps}{兩個不等的鬆弛外間隙}\\
+$h_b\le h<1/6$ & $\pm b$ & \bi{five consecutive contacts}{五個連續接觸}\\
+$h=1/6$ & $0$ & \bi{six equal gaps}{六個間隙相等}\\\bottomrule
+\end{tabular}\end{table}
+\par
+\begin{proof}
+\bi{The squared mode amplitude is $2A_n^2[1-(-1)^n\cos(2\pi nt)]$. Absolute displacement maps bijectively to $[0,y_b]$. From $U_{n-1}(\cos v)=\sum_{j=0}^{n-1}\cos((n-1-2j)v)$ one obtains $|T_n'|\le n^2$, $|T_n''|\le n^4$ on $[-1,1]$. Put $Q=17/50$. For $h\le1/8$, $A_1^2>17/100$, $|A_2|\le1$, $A_3^2<6$, and $|A_n|\le3$. For $h\ge1/8$ up to $1/6$, $A_2^2\ge1$, the first mode is linear in $y$, and the second contributes $4q^3 A_2^2$ to the second derivative. Summing geometric majorants gives, respectively, throughout $[0,2]$,}{模態振幅平方為 $2A_n^2[1-(-1)^n\cos(2\pi nt)]$；位移絕對值與 $[0,y_b]$ 一一對應。由 $U_{n-1}(\cos v)=\sum_{j=0}^{n-1}\cos((n-1-2j)v)$，在 $[-1,1]$ 上有 $|T_n'|\le n^2$、$|T_n''|\le n^4$。令 $Q=17/50$。在 $h\le1/8$，有 $A_1^2>17/100$、$|A_2|\le1$、$A_3^2<6$，且 $|A_n|\le3$。在 $1/8\le h\le1/6$，有 $A_2^2\ge1$，第一模對 $y$ 線性，第二模對二階導數貢獻 $4q^3 A_2^2$。以等比級數控制尾項，分別在整個 $[0,2]$ 上得到}
+\begin{align*}
+ \Phi_y&>17/100-4Q^3-54Q^8-144Q^{15}/[1-(5/4)^2Q^9]>0,\\
+ \Phi_{yy}/q^3&\ge4-729Q^5/[1-(4/3)^4Q^7]>0 .
+\end{align*}
+\bi{At either endpoint write $z=1$ or $z=3x-4x^3$ respectively. The endpoint slope is}{在中央及外接觸端分別令 $z=1$ 或 $z=3x-4x^3$。相應端點的斜率為}
+\begin{equation}\label{eq:slope}
+ P(q,x,z)=\sum_{n\ge1}(-1)^{n+1}n a_n(2T_n(x)-1)^2 U_{n-1}(z).
+\end{equation}
+\bi{For $1/2\le x\le1/\sqrt2$, $1/2\le z\le1$ and $-3\le z'\le0$. The first two terms are $(2x-1)^2-4q^3(4x^2-3)^2z$. Their total $x$ derivative is at least $16q^3$ and their $q\partial_q$ derivative at most $-6q^3$. Indeed $64x(3-4x^2)z\ge16$ and the $-z'$ contribution is nonnegative. For the two derivatives the remaining terms in absolute value are at most $39Hq^3,9Hq^3$, where $H=3^4Q^5/[1-(4/3)^4Q^7]$. Use $|U_{n-1}'|\le n(n-1)^2$ from the cosine sum and sum the geometric tails of $n^4a_n$. Since $39H<16$, $9H<6$, $P_x>0$ along either endpoint and $P_q<0$. At $h=1/8$ both slopes are positive. At $1/6$ both have first term zero, second term $-16q^3$, and tail of modulus at most $9Hq^3$. Thus each has one simple root since $P_h=-2\pi\sin\eta\,P_x<0$. Strict convexity orders the roots, and minimizes $\Phi$ as in Table~\ref{tab:phases}; the interior root solves $\Phi_y=0$. Normal convergence in a complex neighborhood and the implicit function theorem give analyticity and $h'=-P_q q'/P_h<0$, $q'=\pi^2q/s^2$. Reflection interchanges the two displacements. Starting at the other triple reverses the sign convention when the first particle is fixed positive.}{當 $1/2\le x\le1/\sqrt2$，有 $1/2\le z\le1$、$-3\le z'\le0$。前兩項和為 $(2x-1)^2-4q^3(4x^2-3)^2z$，沿端點對 $x$ 的全導數至少 $16q^3$，其 $q\partial_q$ 導數至多 $-6q^3$；這是因為 $64x(3-4x^2)z\ge16$，而 $-z'$ 項非負。兩種導數的尾項絕對值分別不逾 $39Hq^3,9Hq^3$，其中 $H=3^4Q^5/[1-(4/3)^4Q^7]$；此處由餘弦和得 $|U_{n-1}'|\le n(n-1)^2$，再對 $n^4a_n$ 作等比估計。因 $39H<16$、$9H<6$，沿兩端點均有 $P_x>0$、$P_q<0$。在 $h=1/8$ 兩端斜率皆正，在 $1/6$ 前兩項為零及 $-16q^3$，尾項絕對值至多 $9Hq^3$。由 $P_h=-2\pi\sin\eta\,P_x<0$，各有唯一簡單根。嚴格凸性決定根的次序，並給出表~\ref{tab:phases} 的極小者；內部根滿足 $\Phi_y=0$。級數在複鄰域的正規收斂與隱函數定理給出解析性，且 $h'=-P_q q'/P_h<0$，$q'=\pi^2q/s^2$。反射互換兩個位移；固定首粒子為正時，改從另一簇起算須同時反轉全體電荷記號。}
+\end{proof}
+
+\begin{prop}\label{th:pitch}
+\bi{At $s=8$, even in the full gap simplex, the centered branch is a strict local minimum through $h_c$, and a constrained saddle for $h_c<h<1/6$. Set $f(h,t)=E_8(Y(h,t))$, $A=\partial_h f_{tt}(h_c,0)$, $B=f_{tttt}(h_c,0)$, $\delta=h-h_c$. For small $\delta>0$ the only nearby minima satisfy}{在 $s=8$ 的完整間隙單純形中，居中分支在 $0<h\le h_c$ 皆為嚴格局部極小，於 $h_c<h<1/6$ 為受約束鞍點。記 $f(h,t)=E_8(Y(h,t))$、$A=\partial_h f_{tt}(h_c,0)$、$B=f_{tttt}(h_c,0)$、$\delta=h-h_c$。對充分小的 $\delta>0$，鄰近的極小者恰為}
+\begin{equation}\label{eq:pitch}
+ t_\pm=\pm\sqrt{-6A/B}\,\delta^{1/2}+O(\delta^{3/2}),\qquad
+ f(h,0)-f(h,t_\pm)=\frac{3A^2}{2B}\delta^2+O(\delta^3).
+\end{equation}
+\end{prop}
+\begin{proof}
+\bi{Use free $t=x_3-1/2$ with $x_0=0$, and nonnegative release variables $u=(g_0-h,g_1-h,g_3-h,g_4-h)$. Near the critical cell both other gaps are slack. Reflection about the first triple midpoint fixes its middle site and the other middle site; a half-turn with global sign reversal identifies corresponding forces. Consequently the four partial derivatives with respect to $u_i$ at the centered cell all equal $f_h/4$. The rational Fourier certificate gives at the root}{固定 $x_0=0$，取自由坐標 $t=x_3-1/2$ 及四個非負放寬量 $u=(g_0-h,g_1-h,g_3-h,g_4-h)$。臨界點附近其餘兩間隙皆鬆弛。關於第一簇中點的反射固定兩簇中間粒子；平移半週並整體換號等同兩簇相應的力。因此居中時四個 $u_i$ 偏導數皆為 $f_h/4$。有理 Fourier 證書在臨界根給出}
+\[
+ -58.94248<A<-58.94246,\quad 70.22242<B<70.22244,\quad
+ .40191212<f_h/4<.40191214 .
+\]
+\bi{Each release derivative stays above a common $\gamma>0$ locally. Integration on the segment from $0$ to $u$ raises the energy by at least $\gamma\sum u_i$ and excludes an off-face minimum there. Even analyticity gives $f_t=t[\kappa(h)+B(h)t^2/6+O(t^4)]$ with $\kappa=f_{tt}(h,0)$ and $B(h)=f_{tttt}(h,0)$. Solve the bracket by the implicit function theorem in $t^2$. Substitution into the fourth-order energy yields \eqref{eq:pitch}; the coefficients lie in $(2.24414,2.24416)$ and $(74.2115,74.2119)$. At the root the quartic term is positive. On the entire open branch, the certificate bounds $(f_h/4)/[\sin\eta(2\cos\eta-1)]$ between $1.49$ and $1.57$. The sign of $\kappa=(4cq/6)(2\pi)^2\Phi_y(0)$ changes from positive to negative at $h_c$, proving the local classifications.}{在一個共同鄰域中，各放寬偏導數都大於某 $\gamma>0$；沿 $0$ 至 $u$ 積分得升能量至少 $\gamma\sum u_i$，排除附近面外極小者。由偶性及解析性，$f_t=t[\kappa(h)+B(h)t^2/6+O(t^4)]$，其中 $\kappa=f_{tt}(h,0)$、$B(h)=f_{tttt}(h,0)$。以 $t^2$ 為變量對括號使用隱函數定理，再代回四階能量展開即得式 \eqref{eq:pitch}，兩係數分別屬於 $(2.24414,2.24416)$ 與 $(74.2115,74.2119)$。臨界點四次項為正。沿整條開分支，證書給出 $(f_h/4)/[\sin\eta(2\cos\eta-1)]$ 介於 $1.49$ 與 $1.57$。結合 $\kappa=(4cq/6)(2\pi)^2\Phi_y(0)$ 在 $h_c$ 由正轉負，即得局部分類。}
+\end{proof}
+

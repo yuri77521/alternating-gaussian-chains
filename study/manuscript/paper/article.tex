@@ -1,0 +1,55 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=24mm]{geometry}
+\usepackage{fontspec,amsmath,amssymb,amsthm,booktabs,graphicx}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{microtype}
+\ifChinese
+  \usepackage{xeCJK}
+  \setCJKmainfont{NotoSerifCJKtc-Regular.otf}[Path=fonts/,
+    BoldFont=NotoSerifCJKtc-Bold.otf,ItalicFont=NotoSerifCJKtc-Regular.otf,
+    BoldItalicFont=NotoSerifCJKtc-Bold.otf]
+  \setCJKmonofont{NotoSerifCJKtc-Regular.otf}[Path=fonts/,BoldFont=NotoSerifCJKtc-Bold.otf]
+  \renewcommand{\abstractname}{摘要}
+  \renewcommand{\proofname}{證明}
+  \renewcommand{\refname}{參考文獻}
+  \renewcommand{\figurename}{圖}
+  \renewcommand{\tablename}{表}
+  \newcommand{\bi}[2]{#2}
+\else
+  \newcommand{\bi}[2]{#1}
+\fi
+\newtheorem{thm}{\bi{Theorem}{定理}}
+\newtheorem{lem}[thm]{\bi{Lemma}{引理}}
+\newtheorem{cor}[thm]{\bi{Corollary}{推論}}
+\theoremstyle{definition}
+\newtheorem{prop}[thm]{\bi{Proposition}{命題}}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\Q}{\mathcal Q}
+\newcommand{\ee}{\mathrm e}
+\newcommand{\dd}{\,\mathrm d}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\newcommand{\papertitle}{\bi{Exact clusters and global transitions in periodic alternating Gaussian chains with a minimum spacing}{具最小間距的週期交替高斯鏈：精確聚簇與全域相變}}
+\newcommand{\coordinator}{Research coordination: yuri77521}
+\newcommand{\researchcredit}{AI research: OpenAI Codex (GPT-6.2 Astra)}
+\newcommand{\projectcredit}{Independent Research Project}
+\title{\papertitle}
+\author{\textbf{\coordinator}\\\textbf{\researchcredit}\\\projectcredit}
+\hypersetup{pdftitle={\papertitle},pdfauthor={\coordinator; \researchcredit; \projectcredit}}
+\date{\bi{26 November 2026}{2026 年 11 月 26 日}}
+\begin{document}
+\maketitle
+\begin{abstract}
+\bi{We minimize the energy of a periodic chain with alternating unit charges and a Gaussian interaction, with a lower bound on each gap. For fixed even particle count and $\sum_{n\ge2}n^4q^{n^2-1}\le2/3$, an explicit small positive floor forces two exactly packed, balanced odd clusters with antipodal midpoints. We compute the minimum through fourth order. For six particles and every normalized width $7.99\le s\le9$, two simple decreasing curves partition the positive-floor parameter strip into centered, displaced and five-contact regimes, with a single uniform cell at the feasibility endpoint. The intervening phase widens on $[8,9]$. At the single parameter pair $(s,h)=(22,1/1000)$ the unique geometric shape instead has one triple and three single sites. The general contact theorem is analytic. The six-site global classifications combine analytic reductions with exhaustive rational interval certificates. Four algebraic declarations used in the small-gap analysis have Lean proofs.}{本文研究一條電荷正負交替、以高斯勢相互作用的週期鏈，並對每個間隙施加硬下限。對固定偶數粒子數及滿足 $\sum_{n\ge2}n^4q^{n^2-1}\le2/3$ 的寬度，當正下限小於一個明確界時，全部極小者恰由兩個緊密奇數簇組成，大小盡量均衡，中點對徑；最低能量可展開至四階。對六粒子及每個歸一化寬度 $7.99\le s\le9$，兩條嚴格下降的簡單根曲線把正下限參數帶分成對徑、偏移及五接觸三相，可行域終點僅有均勻構型；偏移相在 $[8,9]$ 上嚴格變寬。在單一參數點 $(s,h)=(22,1/1000)$，唯一幾何形狀變為一個緊三粒子簇及三個單粒子。一般粒子數的接觸鎖定有解析證明。六粒子全域分類結合解析歸約及窮盡的有理區間證書。小間距分析中的四個代數聲明另有 Lean 證明。}
+\end{abstract}
+\noindent\textbf{\bi{Keywords}{關鍵詞}}\quad
+\bi{alternating charges, Gaussian energy, constrained crystallization, pitchfork bifurcation, interval arithmetic}{交替電荷、高斯能量、受約束結晶、叉形分岔、區間算術}
+\input{model.tex}
+\input{clusters.tex}
+\input{face.tex}
+\input{strip.tex}
+\input{point.tex}
+\input{evidence.tex}
+\input{references.tex}
+\end{document}
+
