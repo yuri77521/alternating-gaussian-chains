@@ -8,7 +8,13 @@ Independent Research Project
 
 This study asks which configurations minimize the energy of a periodic one-dimensional chain of alternating charges when every gap has a positive lower bound. For a fixed even particle count, explicit width and small-gap conditions force two packed odd clusters with antipodal midpoints. For six particles, all minimizers are classified for every feasible positive floor throughout the normalized width strip $7.99\le s\le9$. At the separate pair $(s,h)=(22,1/1000)$, the minimizing geometry is one packed triple plus three singletons.
 
-繁體中文論文與英文版使用相同的定理、公式及圖表編號。六粒子的全域結論結合解析證明與嚴格區間證書。Lean 檢查兩項一般奇數簇矩恆等式及兩項三粒子方差與間隙導數聲明。原有的四粒子形式化與其來源另列於文獻及證據索引。
+繁體中文論文與英文版使用相同的定理、公式及圖表編號。六粒子的全域結論結合解析證明與嚴格區間證書。v1.0.1 發布時隨附的 Lean 檔案檢查兩項一般奇數簇矩恆等式及兩項三粒子方差與間隙導數聲明。原有的四粒子形式化與其來源另列於文獻及證據索引。
+
+## Lean proofs of the six results
+
+The post-release Lean 4 development verifies all six numbered results of v1.0.1. It starts from the ordered energy per particle, recovers the four-site model, and checks the continuous-domain certificates for the six-site classifications. The 62 audited declarations each report `propext`, `Classical.choice` and `Quot.sound`. [Theorems and hypotheses](formalization/RESULTS.md) · [Build and review guide](formalization/README.md) · [Axiom transcript](formalization/AXIOMS.txt)
+
+發布後的形式化涵蓋六項編號結果。定理 5 在整個寬度條帶分類全部可行六粒子構型的極小者。定理 6 的分類與數值包圍只適用於 $(s,h)=(22,1/1000)$。[定理 5](formalization/StripTheorem.lean) · [定理 6](formalization/Point22Theorem.lean)
 
 ## Read and reproduce
 

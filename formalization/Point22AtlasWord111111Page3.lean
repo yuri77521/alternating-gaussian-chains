@@ -1,0 +1,313 @@
+import Point22AtlasWord111111Page2
+
+/-! Generated evaluation shards. Regenerate with point22_atlas_word_proofs.py. -/
+namespace GaussianChains.Point22.Atlas
+open GaussianChains.Cert
+
+set_option maxRecDepth 200000
+set_option maxHeartbeats 0
+
+def w111111LLLLRLRLBox := endpointsBox (0,0) (32,7984) (8016,15968) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLTree := leftSubtree w111111LLLLRLRTree
+
+def w111111LLLLRLRRBox := endpointsBox (0,0) (32,7984) (8016,15968) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRTree := rightSubtree w111111LLLLRLRTree
+
+def w111111LLLLRLRLLBox := endpointsBox (0,0) (32,4008) (8016,15968) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLLTree := leftSubtree w111111LLLLRLRLTree
+
+def w111111LLLLRLRLRBox := endpointsBox (0,0) (4008,7984) (8016,15968) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLRTree := rightSubtree w111111LLLLRLRLTree
+
+def w111111LLLLRLRLLLBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLLLTree := leftSubtree w111111LLLLRLRLLTree
+
+def w111111LLLLRLRLLRBox := endpointsBox (0,0) (32,4008) (11992,15968) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLLRTree := rightSubtree w111111LLLLRLRLLTree
+
+def w111111LLLLRLRLLLLBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,12024) (8080,16032) (16064,24016)
+def w111111LLLLRLRLLLLTree := leftSubtree w111111LLLLRLRLLLTree
+
+def w111111LLLLRLRLLLRBox := endpointsBox (0,0) (32,4008) (8016,11992) (12024,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLLLRTree := rightSubtree w111111LLLLRLRLLLTree
+
+def w111111LLLLRLRLLLLLBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,12024) (8080,12056) (16064,24016)
+def w111111LLLLRLRLLLLLTree := leftSubtree w111111LLLLRLRLLLLTree
+
+def w111111LLLLRLRLLLLRBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,12024) (12056,16032) (16064,24016)
+def w111111LLLLRLRLLLLRTree := rightSubtree w111111LLLLRLRLLLLTree
+
+def w111111LLLLRLRLLLLRLBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,12024) (12056,16032) (16064,20040)
+def w111111LLLLRLRLLLLRLTree := leftSubtree w111111LLLLRLRLLLLRTree
+
+def w111111LLLLRLRLLLLRRBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,12024) (12056,16032) (20040,24016)
+def w111111LLLLRLRLLLLRRTree := rightSubtree w111111LLLLRLRLLLLRTree
+
+def w111111LLLLRLRLRLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLRLTree := leftSubtree w111111LLLLRLRLRTree
+
+def w111111LLLLRLRLRRBox := endpointsBox (0,0) (4008,7984) (11992,15968) (8048,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLRRTree := rightSubtree w111111LLLLRLRLRTree
+
+def w111111LLLLRLRLRLLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (8080,16032) (16064,24016)
+def w111111LLLLRLRLRLLTree := leftSubtree w111111LLLLRLRLRLTree
+
+def w111111LLLLRLRLRLRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (12024,16000) (8080,16032) (16064,24016)
+def w111111LLLLRLRLRLRTree := rightSubtree w111111LLLLRLRLRLTree
+
+def w111111LLLLRLRLRLLLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (8080,12056) (16064,24016)
+def w111111LLLLRLRLRLLLTree := leftSubtree w111111LLLLRLRLRLLTree
+
+def w111111LLLLRLRLRLLRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (12056,16032) (16064,24016)
+def w111111LLLLRLRLRLLRTree := rightSubtree w111111LLLLRLRLRLLTree
+
+def w111111LLLLRLRLRLLRLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (12056,16032) (16064,20040)
+def w111111LLLLRLRLRLLRLTree := leftSubtree w111111LLLLRLRLRLLRTree
+
+def w111111LLLLRLRLRLLRRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (12056,16032) (20040,24016)
+def w111111LLLLRLRLRLLRRTree := rightSubtree w111111LLLLRLRLRLLRTree
+
+def w111111LLLLRLRLRLLRRLBox := endpointsBox (0,0) (4008,5996) (8016,11992) (8048,12024) (12056,16032) (20040,24016)
+def w111111LLLLRLRLRLLRRLTree := leftSubtree w111111LLLLRLRLRLLRRTree
+
+def w111111LLLLRLRLRLLRRRBox := endpointsBox (0,0) (5996,7984) (8016,11992) (8048,12024) (12056,16032) (20040,24016)
+def w111111LLLLRLRLRLLRRRTree := rightSubtree w111111LLLLRLRLRLLRRTree
+
+def w111111LLLLRLRLRLRLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (12024,16000) (12056,16032) (16064,20040)
+def w111111LLLLRLRLRLRLTree := leftSubtree w111111LLLLRLRLRLRTree
+
+def w111111LLLLRLRLRLRRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (12024,16000) (12056,16032) (20040,24016)
+def w111111LLLLRLRLRLRRTree := rightSubtree w111111LLLLRLRLRLRTree
+
+def w111111LLLLRLRLRLRLLBox := endpointsBox (0,0) (4008,5996) (8016,11992) (12024,16000) (12056,16032) (16064,20040)
+def w111111LLLLRLRLRLRLLTree := leftSubtree w111111LLLLRLRLRLRLTree
+
+def w111111LLLLRLRLRLRLRBox := endpointsBox (0,0) (5996,7984) (8016,11992) (12024,16000) (12056,16032) (16064,20040)
+def w111111LLLLRLRLRLRLRTree := rightSubtree w111111LLLLRLRLRLRLTree
+
+def w111111LLLLRLRLRLRRLBox := endpointsBox (0,0) (4008,5996) (8016,11992) (12024,16000) (12056,16032) (20040,24016)
+def w111111LLLLRLRLRLRRLTree := leftSubtree w111111LLLLRLRLRLRRTree
+
+def w111111LLLLRLRLRLRRRBox := endpointsBox (0,0) (5996,7984) (8016,11992) (12024,16000) (12056,16032) (20040,24016)
+def w111111LLLLRLRLRLRRRTree := rightSubtree w111111LLLLRLRLRLRRTree
+
+def w111111LLLLRLRRLBox := endpointsBox (0,0) (32,4008) (8016,15968) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRLTree := leftSubtree w111111LLLLRLRRTree
+
+def w111111LLLLRLRRRBox := endpointsBox (0,0) (4008,7984) (8016,15968) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRRTree := rightSubtree w111111LLLLRLRRTree
+
+def w111111LLLLRLRRLLBox := endpointsBox (0,0) (32,4008) (8016,11992) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRLLTree := leftSubtree w111111LLLLRLRRLTree
+
+def w111111LLLLRLRRLRBox := endpointsBox (0,0) (32,4008) (11992,15968) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRLRTree := rightSubtree w111111LLLLRLRRLTree
+
+def w111111LLLLRLRRRLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRRLTree := leftSubtree w111111LLLLRLRRRTree
+
+def w111111LLLLRLRRRRBox := endpointsBox (0,0) (4008,7984) (11992,15968) (8048,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRRRTree := rightSubtree w111111LLLLRLRRRTree
+
+def w111111LLLLRLRRRLLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (8080,16032) (24016,31968)
+def w111111LLLLRLRRRLLTree := leftSubtree w111111LLLLRLRRRLTree
+
+def w111111LLLLRLRRRLRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (12024,16000) (8080,16032) (24016,31968)
+def w111111LLLLRLRRRLRTree := rightSubtree w111111LLLLRLRRRLTree
+
+def w111111LLLLRLRRRLLLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (8080,12056) (24016,31968)
+def w111111LLLLRLRRRLLLTree := leftSubtree w111111LLLLRLRRRLLTree
+
+def w111111LLLLRLRRRLLRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (12056,16032) (24016,31968)
+def w111111LLLLRLRRRLLRTree := rightSubtree w111111LLLLRLRRRLLTree
+
+def w111111LLLLRLRRRLLRLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (12056,16032) (24016,27992)
+def w111111LLLLRLRRRLLRLTree := leftSubtree w111111LLLLRLRRRLLRTree
+
+def w111111LLLLRLRRRLLRRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (8048,12024) (12056,16032) (27992,31968)
+def w111111LLLLRLRRRLLRRTree := rightSubtree w111111LLLLRLRRRLLRTree
+
+def w111111LLLLRLRRRLLRLLBox := endpointsBox (0,0) (4008,5996) (8016,11992) (8048,12024) (12056,16032) (24016,27992)
+def w111111LLLLRLRRRLLRLLTree := leftSubtree w111111LLLLRLRRRLLRLTree
+
+def w111111LLLLRLRRRLLRLRBox := endpointsBox (0,0) (5996,7984) (8016,11992) (8048,12024) (12056,16032) (24016,27992)
+def w111111LLLLRLRRRLLRLRTree := rightSubtree w111111LLLLRLRRRLLRLTree
+
+def w111111LLLLRLRRRLRLBox := endpointsBox (0,0) (4008,7984) (8016,11992) (12024,16000) (12056,16032) (24016,27992)
+def w111111LLLLRLRRRLRLTree := leftSubtree w111111LLLLRLRRRLRTree
+
+def w111111LLLLRLRRRLRRBox := endpointsBox (0,0) (4008,7984) (8016,11992) (12024,16000) (12056,16032) (27992,31968)
+def w111111LLLLRLRRRLRRTree := rightSubtree w111111LLLLRLRRRLRTree
+
+def w111111LLLLRLRRRLRLLBox := endpointsBox (0,0) (4008,5996) (8016,11992) (12024,16000) (12056,16032) (24016,27992)
+def w111111LLLLRLRRRLRLLTree := leftSubtree w111111LLLLRLRRRLRLTree
+
+def w111111LLLLRLRRRLRLRBox := endpointsBox (0,0) (5996,7984) (8016,11992) (12024,16000) (12056,16032) (24016,27992)
+def w111111LLLLRLRRRLRLRTree := rightSubtree w111111LLLLRLRRRLRLTree
+
+theorem w111111LLLLRLRLLLLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLLLBox w111111LLLLRLRLLLLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLLLLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLLRLBox w111111LLLLRLRLLLLRLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLLLLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLLRRBox w111111LLLLRLRLLLLRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLLLLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLLRBox w111111LLLLRLRLLLLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLLLLRBox w111111LLLLRLRLLLLRLBox w111111LLLLRLRLLLLRRBox w111111LLLLRLRLLLLRTree
+    (by decide +kernel) w111111LLLLRLRLLLLRLOK w111111LLLLRLRLLLLRROK
+
+theorem w111111LLLLRLRLLLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLLBox w111111LLLLRLRLLLLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLLLLBox w111111LLLLRLRLLLLLBox w111111LLLLRLRLLLLRBox w111111LLLLRLRLLLLTree
+    (by decide +kernel) w111111LLLLRLRLLLLLOK w111111LLLLRLRLLLLROK
+
+theorem w111111LLLLRLRLLLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLRBox w111111LLLLRLRLLLRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLLBox w111111LLLLRLRLLLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLLLBox w111111LLLLRLRLLLLBox w111111LLLLRLRLLLRBox w111111LLLLRLRLLLTree
+    (by decide +kernel) w111111LLLLRLRLLLLOK w111111LLLLRLRLLLROK
+
+theorem w111111LLLLRLRLLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLRBox w111111LLLLRLRLLRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLLBox w111111LLLLRLRLLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLLBox w111111LLLLRLRLLLBox w111111LLLLRLRLLRBox w111111LLLLRLRLLTree
+    (by decide +kernel) w111111LLLLRLRLLLOK w111111LLLLRLRLLROK
+
+theorem w111111LLLLRLRLRLLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLLBox w111111LLLLRLRLRLLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLRLBox w111111LLLLRLRLRLLRLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLLRRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLRRLBox w111111LLLLRLRLRLLRRLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLLRRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLRRRBox w111111LLLLRLRLRLLRRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLRRBox w111111LLLLRLRLRLLRRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLLRRBox w111111LLLLRLRLRLLRRLBox w111111LLLLRLRLRLLRRRBox w111111LLLLRLRLRLLRRTree
+    (by decide +kernel) w111111LLLLRLRLRLLRRLOK w111111LLLLRLRLRLLRRROK
+
+theorem w111111LLLLRLRLRLLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLRBox w111111LLLLRLRLRLLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLLRBox w111111LLLLRLRLRLLRLBox w111111LLLLRLRLRLLRRBox w111111LLLLRLRLRLLRTree
+    (by decide +kernel) w111111LLLLRLRLRLLRLOK w111111LLLLRLRLRLLRROK
+
+theorem w111111LLLLRLRLRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLLBox w111111LLLLRLRLRLLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLLBox w111111LLLLRLRLRLLLBox w111111LLLLRLRLRLLRBox w111111LLLLRLRLRLLTree
+    (by decide +kernel) w111111LLLLRLRLRLLLOK w111111LLLLRLRLRLLROK
+
+theorem w111111LLLLRLRLRLRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRLLBox w111111LLLLRLRLRLRLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRLRBox w111111LLLLRLRLRLRLRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRLBox w111111LLLLRLRLRLRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLRLBox w111111LLLLRLRLRLRLLBox w111111LLLLRLRLRLRLRBox w111111LLLLRLRLRLRLTree
+    (by decide +kernel) w111111LLLLRLRLRLRLLOK w111111LLLLRLRLRLRLROK
+
+theorem w111111LLLLRLRLRLRRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRRLBox w111111LLLLRLRLRLRRLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLRRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRRRBox w111111LLLLRLRLRLRRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLRLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRRBox w111111LLLLRLRLRLRRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLRRBox w111111LLLLRLRLRLRRLBox w111111LLLLRLRLRLRRRBox w111111LLLLRLRLRLRRTree
+    (by decide +kernel) w111111LLLLRLRLRLRRLOK w111111LLLLRLRLRLRRROK
+
+theorem w111111LLLLRLRLRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLRBox w111111LLLLRLRLRLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLRBox w111111LLLLRLRLRLRLBox w111111LLLLRLRLRLRRBox w111111LLLLRLRLRLRTree
+    (by decide +kernel) w111111LLLLRLRLRLRLOK w111111LLLLRLRLRLRROK
+
+theorem w111111LLLLRLRLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRLBox w111111LLLLRLRLRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRLBox w111111LLLLRLRLRLLBox w111111LLLLRLRLRLRBox w111111LLLLRLRLRLTree
+    (by decide +kernel) w111111LLLLRLRLRLLOK w111111LLLLRLRLRLROK
+
+theorem w111111LLLLRLRLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRRBox w111111LLLLRLRLRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLRBox w111111LLLLRLRLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLRBox w111111LLLLRLRLRLBox w111111LLLLRLRLRRBox w111111LLLLRLRLRTree
+    (by decide +kernel) w111111LLLLRLRLRLOK w111111LLLLRLRLRROK
+
+theorem w111111LLLLRLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRLBox w111111LLLLRLRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRLBox w111111LLLLRLRLLBox w111111LLLLRLRLRBox w111111LLLLRLRLTree
+    (by decide +kernel) w111111LLLLRLRLLOK w111111LLLLRLRLROK
+
+theorem w111111LLLLRLRRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRLLBox w111111LLLLRLRRLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRLRBox w111111LLLLRLRRLRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRLBox w111111LLLLRLRRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRLBox w111111LLLLRLRRLLBox w111111LLLLRLRRLRBox w111111LLLLRLRRLTree
+    (by decide +kernel) w111111LLLLRLRRLLOK w111111LLLLRLRRLROK
+
+theorem w111111LLLLRLRRRLLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLLBox w111111LLLLRLRRRLLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLLRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLRLLBox w111111LLLLRLRRRLLRLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLLRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLRLRBox w111111LLLLRLRRRLLRLRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLRLBox w111111LLLLRLRRRLLRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRLLRLBox w111111LLLLRLRRRLLRLLBox w111111LLLLRLRRRLLRLRBox w111111LLLLRLRRRLLRLTree
+    (by decide +kernel) w111111LLLLRLRRRLLRLLOK w111111LLLLRLRRRLLRLROK
+
+theorem w111111LLLLRLRRRLLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLRRBox w111111LLLLRLRRRLLRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLRBox w111111LLLLRLRRRLLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRLLRBox w111111LLLLRLRRRLLRLBox w111111LLLLRLRRRLLRRBox w111111LLLLRLRRRLLRTree
+    (by decide +kernel) w111111LLLLRLRRRLLRLOK w111111LLLLRLRRRLLRROK
+
+theorem w111111LLLLRLRRRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLLBox w111111LLLLRLRRRLLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRLLBox w111111LLLLRLRRRLLLBox w111111LLLLRLRRRLLRBox w111111LLLLRLRRRLLTree
+    (by decide +kernel) w111111LLLLRLRRRLLLOK w111111LLLLRLRRRLLROK
+
+theorem w111111LLLLRLRRRLRLLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLRLLBox w111111LLLLRLRRRLRLLTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLRLRBox w111111LLLLRLRRRLRLRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLRLBox w111111LLLLRLRRRLRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRLRLBox w111111LLLLRLRRRLRLLBox w111111LLLLRLRRRLRLRBox w111111LLLLRLRRRLRLTree
+    (by decide +kernel) w111111LLLLRLRRRLRLLOK w111111LLLLRLRRRLRLROK
+
+theorem w111111LLLLRLRRRLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLRRBox w111111LLLLRLRRRLRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLRBox w111111LLLLRLRRRLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRLRBox w111111LLLLRLRRRLRLBox w111111LLLLRLRRRLRRBox w111111LLLLRLRRRLRTree
+    (by decide +kernel) w111111LLLLRLRRRLRLOK w111111LLLLRLRRRLRROK
+
+theorem w111111LLLLRLRRRLOK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRLBox w111111LLLLRLRRRLTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRLBox w111111LLLLRLRRRLLBox w111111LLLLRLRRRLRBox w111111LLLLRLRRRLTree
+    (by decide +kernel) w111111LLLLRLRRRLLOK w111111LLLLRLRRRLROK
+
+theorem w111111LLLLRLRRRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRRBox w111111LLLLRLRRRRTree = true := by
+  decide +kernel
+
+theorem w111111LLLLRLRRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRRBox w111111LLLLRLRRRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRRBox w111111LLLLRLRRRLBox w111111LLLLRLRRRRBox w111111LLLLRLRRRTree
+    (by decide +kernel) w111111LLLLRLRRRLOK w111111LLLLRLRRRROK
+
+theorem w111111LLLLRLRROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRRBox w111111LLLLRLRRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRRBox w111111LLLLRLRRLBox w111111LLLLRLRRRBox w111111LLLLRLRRTree
+    (by decide +kernel) w111111LLLLRLRRLOK w111111LLLLRLRRROK
+
+theorem w111111LLLLRLROK : replay .singletons (wordBounds .singletons) w111111LLLLRLRBox w111111LLLLRLRTree = true := by
+  exact replay_join_checked .singletons w111111LLLLRLRBox w111111LLLLRLRLBox w111111LLLLRLRRBox w111111LLLLRLRTree
+    (by decide +kernel) w111111LLLLRLRLOK w111111LLLLRLRROK
+
+
+end GaussianChains.Point22.Atlas

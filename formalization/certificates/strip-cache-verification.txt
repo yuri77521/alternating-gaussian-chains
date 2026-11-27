@@ -1,0 +1,33 @@
+Strip grid cache verification, 2026-11-27
+Lean 4.28.0, Windows, one Lean worker for the anchors
+
+From the formalization directory
+
+  python band_cache_generate.py --check
+  lake build +BandVerifiedCacheProof0
+  lake build +BandVerifiedCacheProof1
+  lake build +BandVerifiedCacheProof2
+  lake build +BandVerifiedCacheCertified +BandVerifiedCacheFirstRow
+  lake build +BandVerifiedCacheFirstPhysical
+
+Each anchor covers 32,768 recurrence transitions, 8,193 spatial nodes and
+three derivative orders. Both endpoints of each resulting interval are
+checked. Each range query uses the clamped turning points of the verified
+lower and upper endpoint tables.
+
+Observed wall time in seconds, with third-party dependencies already built
+
+anchor   Lake target seconds   proof shard seconds, in index order 0 through 7
+8        1082.46               138 122 125 118 146 126 149 128
+33/4     1185.10               149 158 121 123 129 114 189 175
+35/4     1353.31               186 172 162 155 162 161 159 165
+
+The typed tree in BandVerifiedCacheFirstRow.lean uses four centered leaves
+and three splits. The observed single-process Lean time for first_row_checked,
+including its imports, was 25.88 seconds. The continuous exclusion and its
+missing-child rejection are first_row_excluded and first_row_missing_branch in
+BandVerifiedCacheFirstPhysical.lean.
+
+An earlier single-file anchor run was stopped after 777.93 seconds when its
+private memory reached 13.19 GiB. It produced no proof object. The measured
+anchor targets above use separate, synchronous modules.

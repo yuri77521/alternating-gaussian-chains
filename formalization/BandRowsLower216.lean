@@ -1,0 +1,78 @@
+import BandRowsLower215
+
+namespace GaussianChains.Band.Material
+set_option Elab.async false
+set_option maxRecDepth 500000
+set_option maxHeartbeats 0
+
+theorem node1_38311 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 0 9671554139877372118173696) :=
+  nodeSafe_split 0 1024 (by decide +kernel : checkChamber (box 0 9671554139877372118173696) (stage 0 9671554139877372118173696 0 9671554139877372118173696) (stage 0 9671554139877372118173696 0 9671554139877372118173696) = true) (by decide +kernel) (by decide +kernel) (node1_38309 V) (node1_38310 V)
+
+theorem node1_38312 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 147573952589676412928 9671701713829961794586624) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 147573952589676412928 9671701713829961794586624) (stage 147573952589676412928 7253850074600703445174272 2417999213181848025825280 7253850074600703445174272) (stage 2417999213181848025825280 7253850074600703445174272 2417999213181848025825280 7253850074600703445174272) = true) (.transfer (.curvature 0 1)) (by decide +kernel)
+
+theorem node1_38313 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 0 9671701713829961794586624) :=
+  nodeSafe_split 4 2048 (by decide +kernel : checkChamber (box 0 9671701713829961794586624) (stage 0 9671701713829961794586624 0 9671701713829961794586624) (stage 0 9671701713829961794586624 0 9671701713829961794586624) = true) (by decide +kernel) (by decide +kernel) (node1_38311 V) (node1_38312 V)
+
+theorem node1_38314 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 9007199254740992 9671701722837161049327616) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 9007199254740992 9671701722837161049327616) (stage 9007199254740992 7253850083607902699915264 2417851648236457604153344 7253850083607902699915264) (stage 2417851648236457604153344 7253850083607902699915264 2417851648236457604153344 7253850083607902699915264) = true) (.transfer (.curvature 0 1)) (by decide +kernel)
+
+theorem node1_38315 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 0 9671701722837161049327616) :=
+  nodeSafe_split 3 2048 (by decide +kernel : checkChamber (box 0 9671701722837161049327616) (stage 0 9671701722837161049327616 0 9671701722837161049327616) (stage 0 9671701722837161049327616 0 9671701722837161049327616) = true) (by decide +kernel) (by decide +kernel) (node1_38313 V) (node1_38314 V)
+
+theorem node1_38316 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 549755813888 9671701722837710805141504) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 549755813888 9671701722837710805141504) (stage 549755813888 7253850083608452455729152 2417851639229808105226240 7253850083608452455729152) (stage 2417851639229808105226240 7253850083608452455729152 2417851639229808105226240 7253850083608452455729152) = true) (.transfer (.curvature 0 1)) (by decide +kernel)
+
+theorem node1_38317 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 0 9671701722837710805141504) :=
+  nodeSafe_split 2 2048 (by decide +kernel : checkChamber (box 0 9671701722837710805141504) (stage 0 9671701722837710805141504 0 9671701722837710805141504) (stage 0 9671701722837710805141504 0 9671701722837710805141504) = true) (by decide +kernel) (by decide +kernel) (node1_38315 V) (node1_38316 V)
+
+theorem node1_38318 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 33554432 9671701722837710838695936) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 33554432 9671701722837710838695936) (stage 33554432 7253850083608452489283584 2417851639229258382966784 7253850083608452489283584) (stage 2417851639229258382966784 7253850083608452489283584 2417851639229258382966784 7253850083608452489283584) = true) (.transfer (.curvature 0 1)) (by decide +kernel)
+
+theorem node1_38319 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 0 9671701722837710838695936) :=
+  nodeSafe_split 1 2048 (by decide +kernel : checkChamber (box 0 9671701722837710838695936) (stage 0 9671701722837710838695936 0 9671701722837710838695936) (stage 0 9671701722837710838695936 0 9671701722837710838695936) = true) (by decide +kernel) (by decide +kernel) (node1_38317 V) (node1_38318 V)
+
+theorem node1_38320 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 2417851639229258349414400 7253850083607902699917312) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 2417851639229258349414400 7253850083607902699917312) (stage 2417851639229258349414400 7253850083607902699917312 2417851639229258349414400 7253850083607902699917312) (stage 2417851639229258349414400 7253850083607902699917312 2417851639229258349414400 7253850083607902699917312) = true) (.transfer (.curvature 1 2)) (by decide +kernel)
+
+theorem node1_38321 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 2417851639229808105228288 7253850083608452455731200) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 2417851639229808105228288 7253850083608452455731200) (stage 2417851639229808105228288 4835850861419405175164928 2417851639229808105228288 4835850861419405175164928) (stage 2417851639229808105228288 4835850861419405175164928 2417851639229808105228288 4835850861419405175164928) = true) (.transfer (.curvature 1 5)) (by decide +kernel)
+
+theorem node1_38322 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 2417851639229258349414400 7253850083608452455731200) :=
+  nodeSafe_split 2 2048 (by decide +kernel : checkChamber (box 2417851639229258349414400 7253850083608452455731200) (stage 2417851639229258349414400 7253850083608452455731200 2417851639229258349414400 7253850083608452455731200) (stage 2417851639229258349414400 7253850083608452455731200 2417851639229258349414400 7253850083608452455731200) = true) (by decide +kernel) (by decide +kernel) (node1_38320 V) (node1_38321 V)
+
+theorem node1_38323 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 2417851639229258382968832 7253850083608452489285632) :=
+  nodeSafe_leaf V (by decide +kernel : checkChamber (box 2417851639229258382968832 7253850083608452489285632) (stage 2417851639229258382968832 4835850861418855452905472 2417851639229258382968832 4835850861418855452905472) (stage 2417851639229258382968832 4835850861418855452905472 2417851639229258382968832 4835850861418855452905472) = true) (.transfer (.curvature 1 5)) (by decide +kernel)
+
+theorem node1_38324 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 2048 9671701722837710838697984) :=
+  nodeSafe_split 1 2048 (by decide +kernel : checkChamber (box 2048 9671701722837710838697984) (stage 2048 7253850083608452489285632 2417851639229258349414400 7253850083608452489285632) (stage 2417851639229258349414400 7253850083608452489285632 2417851639229258349414400 7253850083608452489285632) = true) (by decide +kernel) (by decide +kernel) (node1_38322 V) (node1_38323 V)
+
+theorem node1_38325 (V : Fast.Valid .lower (Fast.packetCache .lower)) : NodeSafe .lower (floorId .lower 24) 17 4 (box 0 9671701722837710838697984) :=
+  nodeSafe_split 0 2048 (by decide +kernel : checkChamber (box 0 9671701722837710838697984) (stage 0 9671701722837710838697984 0 9671701722837710838697984) (stage 0 9671701722837710838697984 0 9671701722837710838697984) = true) (by decide +kernel) (by decide +kernel) (node1_38319 V) (node1_38324 V)
+
+theorem safe1_24_17 (V : Fast.Valid .lower (Fast.packetCache .lower)) : RowExcluded .lower (floorId .lower 24) 17 :=
+  rowExcluded_of_nodeSafe (by decide +kernel) (node1_38325 V)
+
+theorem floor1_24 (V : Fast.Valid .lower (Fast.packetCache .lower)) (i : Fin 18) : RowExcluded .lower (floorId .lower 24) i := by
+  fin_cases i
+  · exact safe1_24_0 V
+  · exact safe1_24_1 V
+  · exact safe1_24_2 V
+  · exact safe1_24_3 V
+  · exact safe1_24_4 V
+  · exact safe1_24_5 V
+  · exact safe1_24_6 V
+  · exact safe1_24_7 V
+  · exact safe1_24_8 V
+  · exact safe1_24_9 V
+  · exact safe1_24_10 V
+  · exact safe1_24_11 V
+  · exact safe1_24_12 V
+  · exact safe1_24_13 V
+  · exact safe1_24_14 V
+  · exact safe1_24_15 V
+  · exact safe1_24_16 V
+  · exact safe1_24_17 V
+
+
+end GaussianChains.Band.Material
