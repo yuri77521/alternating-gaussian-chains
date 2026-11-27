@@ -1,0 +1,97 @@
+import ChainFourier
+import FourBridge
+import ChainScore
+import ChainMinimum
+import ChainClosure
+import ClustersTwo
+import ClusterSeriesCandidate
+import PackedFaceModesEnergy
+import CertTree
+import CertTreeInterpolation
+import Point22Contacts
+import CertRootSimple
+import CertRootValue
+import CertTreeAtlasExample
+import PackedFaceTheorem
+import CollisionClassification
+import PhaseStripRootsWidthEight
+import ClusterSeriesTheorems
+import BifurcationProposition
+import PhaseStripVerified
+import StripSmallTheorem
+import DirectedImages
+import PhysicalGroundState
+import CertRootFace
+import CertRootWitness
+import StripWitness
+import Point22LocalShape
+import Point22Interior
+import AlternatingMoments
+import StripTheorem
+import Point22Theorem
+import Point22AtlasFull
+import BandVerifiedCacheFirstPhysical
+import ChainUniform
+
+#print axioms GaussianChains.physicalEnergy_eq_imageEnergy
+#print axioms GaussianChains.ordered_images_hasSum
+#print axioms GaussianChains.imageEnergy_fourier
+#print axioms GaussianChains.physicalEnergy_fourier
+#print axioms GaussianChains.imageEnergy_eq_pairScore
+#print axioms GaussianChains.physicalEnergy_four_eq_cellEnergyAt
+#print axioms GaussianChains.imageEnergy_four_eq_cellEnergyAt
+#print axioms GaussianChains.imageEnergy_four_quarter
+#print axioms GaussianChains.imageEnergy_four_displacement_lt
+#print axioms GaussianChains.sum_gap
+#print axioms GaussianChains.exists_minimumEnergy
+#print axioms GaussianChains.closure_strictGapSimplex
+#print axioms GaussianChains.widthR_gaussian_lt_two_thirds
+#print axioms GaussianChains.two_site_classification
+#print axioms GaussianChains.ClusterSeries.imageEnergy_packedSites_fourth
+#print axioms GaussianChains.PackedFace.imageEnergy_difference
+#print axioms GaussianChains.Cert.accept_sound
+#print axioms GaussianChains.Cert.bracket_sound
+#print axioms GaussianChains.Cert.Interval.roundOut_mem
+#print axioms GaussianChains.Certificate.interpolation_enclosure
+#print axioms GaussianChains.Point22.actual_word_unique
+#print axioms GaussianChains.PackedFace.theorem_three
+#print axioms GaussianChains.PackedFace.closed_face_all_nomes
+#print axioms GaussianChains.widthR_lt_two_thirds
+#print axioms GaussianChains.Root22.paper_force_root_enclosed
+#print axioms GaussianChains.Root22.mutated_bracket_rejected
+#print axioms GaussianChains.Root22.reflection_root_unique_simple
+#print axioms GaussianChains.Root22.paper_force_unique_simple
+#print axioms GaussianChains.Root22.reflection_physical_energy_enclosed
+#print axioms GaussianChains.Cert.AtlasExample.extracted_leaf_excludes
+#print axioms GaussianChains.Cert.AtlasExample.missing_child_rejected
+#print axioms GaussianChains.six_collision_two_pairs
+#print axioms GaussianChains.PhaseStrip.table2_critical_floors
+#print axioms GaussianChains.exact_cluster_locking
+#print axioms GaussianChains.cluster_ground_state_orbits
+#print axioms GaussianChains.corollary_two_exact
+#print axioms GaussianChains.corollary_two_fourth
+#print axioms GaussianChains.corollary_two_pair_polynomial
+#print axioms GaussianChains.cluster_ground_state_representatives
+#print axioms GaussianChains.proposition4
+#print axioms GaussianChains.PhaseStrip.phaseWidth_deriv_bounds
+#print axioms GaussianChains.Strip.small_floor_reduction
+#print axioms GaussianChains.product_tsum_fourier
+#print axioms GaussianChains.physical_groundState_iff
+#print axioms GaussianChains.Root22.physical_trial_beats_whole_face
+#print axioms GaussianChains.Root22.nearX_no_ground_state
+#print axioms GaussianChains.Root22.removed_child_contains_feasible
+#print axioms GaussianChains.Strip.dimerBox_energy_exclusion
+#print axioms GaussianChains.Point22.unique_captured_minimum
+#print axioms GaussianChains.Point22.Interior.all_slack_excluded
+#print axioms AlternatingMoments.firstMoment
+#print axioms AlternatingMoments.secondMoment
+#print axioms AlternatingMoments.tripleVariance_eq
+#print axioms AlternatingMoments.triple_gap_derivatives
+#print axioms GaussianChains.Strip.theorem_five
+#print axioms GaussianChains.Point22.theorem6
+#print axioms GaussianChains.Band.rowExcluded
+#print axioms GaussianChains.Point22.Atlas.atlas_localizes
+#print axioms GaussianChains.Point22.Atlas.physical_localize_all_words
+#print axioms GaussianChains.Band.Fast.first_row_excluded
+#print axioms GaussianChains.Band.Fast.first_row_missing_branch
+#print axioms GaussianChains.kernel_fourier_derivatives_uniform

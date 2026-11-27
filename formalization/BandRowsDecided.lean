@@ -1,0 +1,129 @@
+import BandRowsNarrow05
+import BandRowsNarrow09
+import BandRowsNarrow13
+import BandRowsNarrow17
+import BandRowsNarrow21
+import BandRowsNarrow24
+import BandRowsNarrow27
+import BandRowsNarrow30
+import BandRowsNarrow32
+import BandRowsNarrow34
+import BandRowsNarrow37
+import BandRowsNarrow38
+import BandRowsNarrow39
+import BandRowsNarrow40
+import BandSlabNarrowChecked
+import BandRowsLower19
+import BandRowsLower37
+import BandRowsLower53
+import BandRowsLower68
+import BandRowsLower82
+import BandRowsLower95
+import BandRowsLower107
+import BandRowsLower118
+import BandRowsLower128
+import BandRowsLower137
+import BandRowsLower146
+import BandRowsLower154
+import BandRowsLower161
+import BandRowsLower168
+import BandRowsLower174
+import BandRowsLower180
+import BandRowsLower185
+import BandRowsLower190
+import BandRowsLower194
+import BandRowsLower198
+import BandRowsLower202
+import BandRowsLower206
+import BandRowsLower210
+import BandRowsLower213
+import BandRowsLower216
+import BandRowsLower218
+import BandRowsLower220
+import BandRowsLower222
+import BandRowsLower224
+import BandRowsLower226
+import BandRowsLower227
+import BandRowsLower228
+import BandRowsLower229
+import BandRowsLower230
+import BandRowsLower231
+import BandRowsLower232
+import BandRowsLower233
+import BandRowsLower234
+import BandRowsLower235
+import BandRowsLower236
+import BandRowsLower237
+import BandRowsLower238
+import BandRowsLower239
+import BandRowsLower240
+import BandRowsLower241
+import BandRowsLower242
+import BandRowsLower243
+import BandRowsLower244
+import BandRowsLower245
+import BandSlabLowerChecked
+import BandRowsUpper19
+import BandRowsUpper36
+import BandRowsUpper51
+import BandRowsUpper65
+import BandRowsUpper78
+import BandRowsUpper90
+import BandRowsUpper101
+import BandRowsUpper112
+import BandRowsUpper122
+import BandRowsUpper131
+import BandRowsUpper139
+import BandRowsUpper147
+import BandRowsUpper154
+import BandRowsUpper161
+import BandRowsUpper167
+import BandRowsUpper172
+import BandRowsUpper177
+import BandRowsUpper182
+import BandRowsUpper186
+import BandRowsUpper190
+import BandRowsUpper194
+import BandRowsUpper198
+import BandRowsUpper201
+import BandRowsUpper204
+import BandRowsUpper207
+import BandRowsUpper209
+import BandRowsUpper211
+import BandRowsUpper213
+import BandRowsUpper215
+import BandRowsUpper217
+import BandRowsUpper218
+import BandRowsUpper219
+import BandRowsUpper220
+import BandRowsUpper221
+import BandRowsUpper222
+import BandRowsUpper223
+import BandRowsUpper224
+import BandRowsUpper225
+import BandRowsUpper226
+import BandRowsUpper227
+import BandRowsUpper228
+import BandRowsUpper229
+import BandRowsUpper230
+import BandRowsUpper231
+import BandRowsUpper232
+import BandRowsUpper233
+import BandRowsUpper234
+import BandRowsUpper235
+import BandRowsUpper236
+import BandSlabUpperChecked
+
+namespace GaussianChains.Band.Material
+
+set_option maxRecDepth 100000 in
+set_option maxHeartbeats 0 in
+theorem allExcluded (V : ∀ s, Fast.Valid s (Fast.packetCache s))
+    (s : Slab) (b : Fin s.count) (i : Fin 18) : RowExcluded s b i := by
+  cases s with
+  | narrow => exact narrowOfValid (V .narrow) b i
+  | lower => exact lowerOfValid (V .lower) b i
+  | upper => exact upperOfValid (V .upper) b i
+
+#print axioms allExcluded
+end GaussianChains.Band.Material
