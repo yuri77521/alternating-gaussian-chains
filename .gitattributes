@@ -1,3 +1,19 @@
 * text=auto eol=lf
 study/** -text -eol
 notices/** -text -eol
+
+# Certificate tables and proof pages emitted by the checked-in generators.
+formalization/BandPackets[0-2].lean linguist-generated=true
+formalization/BandRowsNarrow[0-9]*.lean linguist-generated=true
+formalization/BandRowsLower[0-9]*.lean linguist-generated=true
+formalization/BandRowsUpper[0-9]*.lean linguist-generated=true
+formalization/BandVerifiedCacheData[0-2].lean linguist-generated=true
+formalization/BandVerifiedCacheSamples[0-2].lean linguist-generated=true
+formalization/BandVerifiedCacheProof[0-2]*.lean linguist-generated=true
+formalization/Point22AtlasData.lean linguist-generated=true
+formalization/Point22AtlasClaims.lean linguist-generated=true
+formalization/Point22AtlasNodeData.lean linguist-generated=true
+formalization/Point22AtlasTablesSamples.lean linguist-generated=true
+formalization/Point22AtlasTablesPart[0-9]*.lean linguist-generated=true
+formalization/Point22AtlasRangeGroup[0-9]*.lean linguist-generated=true
+formalization/Point22AtlasWord[0-9]*.lean linguist-generated=true
